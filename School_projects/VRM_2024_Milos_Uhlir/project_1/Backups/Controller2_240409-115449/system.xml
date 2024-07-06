@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemProperties>
+  <SystemName>Controller2</SystemName>
+  <SerialNo>VIRTUAL_CONTROLLER</SerialNo>
+  <UsedMedia>
+    <Media path="C:/Users/milda/AppData/Local/ABB/RobotWare/RobotOS_10.0.1" name="RobotOS" version="10.0.1+456" versionName="10.0.1"/>
+    <Media path="C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0" name="RobotControl" version="7.12.0+1369" versionName="7.12.0"/>
+    <Media path="C:/Users/milda/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.13.0" name="FlexPendantSoftwareUpdate" version="1.13.0+1879" versionName="1.13.0"/>
+    <Media path="C:/Users/milda/AppData/Local/ABB/RobotWare/Robots_1.12.0" name="Robots" version="1.12.0+146" versionName="1.12.0"/>
+  </UsedMedia>
+  <ControlModule>
+    <Option descr="RobotControl Base"/>
+    <Option descr="English"/>
+    <Option descr="3120-1 FlexPendant Limited App Package"/>
+    <Option descr="3120-2 FlexPendant Essential App Package"/>
+    <Option descr="3151-1 FlexPendant Program Package"/>
+    <Option descr="SafeMove Essential"/>
+    <Option descr="Integrated IO"/>
+    <Option descr="System without axis computer"/>
+    <Option descr="Main computer M28.02"/>
+  </ControlModule>
+  <DriveModule>
+    <Name>Robot1</Name>
+    <Option descr="Motor Commutation"/>
+    <Option descr="Service Info System"/>
+    <Option descr="E10"/>
+    <Option descr="B2"/>
+    <Option descr="Axis Calibration"/>
+    <Option descr="E10 orig/notype"/>
+  </DriveModule>
+  <AdditionalOption>
+    <Name>FlexPendantSoftwareUpdate</Name>
+  </AdditionalOption>
+  <AdditionalOption>
+    <Name>Robots</Name>
+    <Option descr="Robots Base"/>
+    <Option descr="IRB 1300-7/1.4"/>
+  </AdditionalOption>
+</SystemProperties>

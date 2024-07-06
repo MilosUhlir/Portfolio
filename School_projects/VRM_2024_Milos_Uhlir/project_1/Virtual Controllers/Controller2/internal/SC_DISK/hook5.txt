@@ -1,0 +1,27 @@
+
+ ---- Diagnostics VC---------
+bistTestNbr                   : 0
+Current State                 : DIAG_POST
+
+Commands and Power-On Self-Test:
+CMD_DISABLE_FAIL              :              0 us  count: 0
+CMD_SET_MODE_SELECTOR_TYPE    :              0 us  count: 0
+CMD_VOLTAGE_ON                :              0 us  count: 0
+POST_VOLTAGE                  :              0 us  count: 0
+POST_TEMPERATURE              :              0 us  count: 0
+POST_GPIO_INPUT_CIRCUIT       :              0 us  count: 0
+POST_MODE_SELECTOR            :              0 us  count: 0
+POST_CPU                      :              0 us  count: 0
+POST_GPIO_REGISTER            :              0 us  count: 0
+POST_GPIO_OUTPUT_A_CIRCUIT    :              0 us  count: 0
+POST_GPIO_OUTPUT_B_CIRCUIT    :              0 us  count: 0
+POST_DRIVE_ENABLE_A_CIRCUIT   :              0 us  count: 0
+POST_DRIVE_ENABLE_B_CIRCUIT   :              0 us  count: 0
+POST_END                      :              0 us  count: 0
+
+Built In Self-Test
+BIST_GPIO_INPUT               :              0 us  count: 0
+BIST_GPIO_OUTPUT              :              0 us  count: 0
+BIST_MODE_SELECTOR            :              0 us  count: 0
+BIST_TEMPERATURE              :              0 us  count: 0
+BIST_VOLTAGE                  :              0 us  count: 0

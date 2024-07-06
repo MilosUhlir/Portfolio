@@ -1,0 +1,89 @@
+------------------------
+configured   = 0 
+cbc_timer    = 0 
+cbc_action   = 0 
+axis_no      = 0 
+cbc_result   = 0 
+drive_module = 0 
+channel      = 0 
+cbc_state    = 0 
+cbc_result_status -3 -3 -3 -3 -3 -3 -3 -3 -3 
+cbc_axis_status 0 0 0 0 0 0 0 0 0 
+brake_check_axis 0 0 0 0 0 0 0 0 0 
+------------------------
+Timing results in us:
+      Area      min    max    mean (us)
+   SAF (total) --
+      CRC-calc --
+AXISMEASUPDATE --
+AXISMEASUPDATEFSOE --
+     KINUPDATE --
+     DYNUPDATE --
+  OUTPUTACTION --
+ ACTEXPRESSION --
+    SAFEOUTPUT --
+SAFEOUTPUTFSOE --
+           STZ --
+    INSIDEZONE --
+     SAFEINPUT --
+           STS --
+ AXISREFUPDATE --
+    SYNCUPDATE --
+    TOOLUPDATE --
+           OSR --
+           CBC --
+           CES --
+   INSIDERANGE --
+ ZONESPEEDPRIO --
+           SST --
+           SAR --
+           TOM --
+           SAS --
+        EMSTOP --
+           SBR --
+           OVR --
+           ACK --
+     TOOLFORCE --
+ PAYLOADUPDATE --
+
+SAF execution time exceeded 500 us 0 times
+
+   worst case meas joints:  0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000  degrees
+   worst case ref joints:   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000  degrees
+------------------------
+Data for last violation:
+   seq nr: 0
+   violation type: 0  (instance id 0)
+   active tool: 0
+   axes position:  0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000  degrees
+   axes speeds:  0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000  rad/s
+   tcp:        ( 0.000000,   0.000000,   0.000000) mm
+   flange pos: ( 0.000000,   0.000000,   0.000000) mm
+   flange orient:
+   | 0   0   0|
+   | 0   0   0|
+   | 0   0   0|
+   violating ssv: [00000000]
+   Upper-arm in violation status: [00000000]
+   Upper-arm in violation status: [00000000]
+   Upper-arm in violation status: [00000000]
+   Upper-arm in violation status: [00000000]
+   Tool-position violation status: [00000000]
+   Tool-position violation status: [00000000]
+   Tool-position violation status: [00000000]
+   Tool-position violation status: [00000000]
+   Tool-position active status: [00000000]
+   Tool-position active status: [00000000]
+   Tool-position active status: [00000000]
+   Tool-position active status: [00000000]
+   Tool-speed violation status: [00000000]
+   Tool-speed violation status: [00000000]
+   Tool-speed violation status: [00000000]
+   Tool-speed violation status: [00000000]
+   Tool-speed active status: [00000000]
+   Tool-speed active status: [00000000]
+   Tool-speed active status: [00000000]
+   Tool-speed active status: [00000000]
+   Axis-range violation status: [00000000]
+   Axis-range active status: [00000000]
+------------------------

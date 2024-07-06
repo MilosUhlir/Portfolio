@@ -1,0 +1,66 @@
+Compiled at: Jun 14 2023 13:44:12
+Time                       : 0x0189A2F7
+Initialized                : YES
+MC Ready                   : NO
+SC Locked                  : NO
+Serial Number              : 0x00000000
+Vendor Id                  : 0x0000
+Device Type                : 0x0000
+Product Code               : 0x0000
+Major Revision             : 0x00
+Minor Revision             : 0x00
+SCID CRC                   : 0x00000000
+SCID TIME                  : 0x00000000
+SCID DATE                  : 0x0000
+ALL CPCRC                  : 0x0000
+State                      : Initalizing 
+Stack status               : Undefined 
+
+
+Events from Safety stack: 
+0[ms]        : <No event>
+0[ms]        : <No event>
+0[ms]        : <No event>
+0[ms]        : <No event>
+0[ms]        : <No event>
+0[ms]        : <No event>
+0[ms]        : <No event>
+0[ms]        : <No event>
+0[ms]        : <No event>
+0[ms]        : <No event>
+
+
+Errors from Safety stack: 
+Number of errors:                 0
+First Error 0[tic]       : 
+0[tic]       : 
+0[tic]       : 
+0[tic]       : 
+0[tic]       : 
+0[tic]       : 
+0[tic]       : 
+0[tic]       : 
+0[tic]       : 
+0[tic]       : 
+0[tic]       : 
+
+Persistant memory usage: 
+Alarm Enable Attribute           :  USED ?  : NO :x01
+Warning Enable Attribute         :  USED ?  : NO :x01
+Configuration UNID               :  USED ?  : NO :x00x00x00x00x00x00x00x00x00x00x00x00
+Output Cnxn   UNID               :  USED ?  : NO :x00x00x00x00x00x00x00x00x00x00x00x00
+SCID                             :  USED ?  : NO :
+Target UNID                      :  USED ?  : NO :xFFxFFxFFxFFxFFxFFxFFxFFxFFxFFxFFxFFxFFxFFxFFxFFxFFxFFxFFxFFxFFxFFxFFxFF
+All CCO CPCRC                    :  USED ?  : NO :xFFxFFxFFxFF
+<Unused Area>                    :  USED ?  : NO :
+<Unused Area>                    :  USED ?  : NO :
+<Unused Area>                    :  USED ?  : NO :
+<Unused Area>                    :  USED ?  : NO :
+<Unused Area>                    :  USED ?  : NO :
+<Unused Area>                    :  USED ?  : NO :
+<Unused Area>                    :  USED ?  : NO :
+<Unused Area>                    :  USED ?  : NO :
+<Unused Area>                    :  USED ?  : NO :
+
+
+Devices: 

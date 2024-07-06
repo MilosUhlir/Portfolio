@@ -1,0 +1,29 @@
+
+---------- Interrupt information ---------
+Sent IRQ to MC          : 0
+Recv IRQ from MC        : 0
+Sent IRQ to Cpu2        : 0
+Recv IRQ from Cpu2      : 0
+
+---------- Address information   ---------
+scLinkCfg.Ep.localRx    : 0xa99e20
+scLinkCfg.Ep.localTx    : 0xa9de20
+scLinkCfg.Ep.remoteRx   : 0x0
+scLinkCfg.Ep.remoteTx   : 0x0
+scLinkCfg.Rc.localRx    : 0xaa1e40
+scLinkCfg.Rc.localTx    : 0xaa5e40
+scLinkCfg.Rc.remoteRx   : 0x0
+
+---------- Transfer information  ---------
+Received packages from  MC   0x1f
+Sent     packages to    MC   0x1e
+
+Received packages from  CPU2 0x0
+Sent     packages to    CPU2 0x0
+
+Receive  SeqNo    from  MC   0x1f
+Sent     SeqNo    to    MC   0x1e
+
+Receive  SeqNo    from  CPU1 0x0
+Sent     SeqNo    to    CPU1 0x0
+

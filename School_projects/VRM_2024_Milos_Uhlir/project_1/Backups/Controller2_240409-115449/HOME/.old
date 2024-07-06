@@ -1,0 +1,96 @@
+MODULE Module1
+        CONST robtarget Mid_point:=[[733.227832011,-113.75902475,529.624209734],[0,0,1,0],[-1,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Orange_1:=[[639.871004656,4.796271995,25.485978346],[0,0,1,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Orange_2:=[[639.871004656,304.796271995,25.485978346],[0,0,1,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Plate:=[[520.083004656,655.834271995,35.985978346],[0,0,1,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Orange_target_1:=[[397.583005211,-644.165282805,164.326527283],[0,0,1,0],[-1,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Orange_target_2:=[[222.583005211,-644.165282805,164.326527283],[0,0,1,0],[-1,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Plate_target:=[[310.083005211,-644.165282805,174.326527283],[0,0,1,0],[-1,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    
+    VAR num offset_z := 100;
+    
+    PROC main()
+        !Add your code here
+    
+        SetDO Reset_Collors, 1;
+        PulseDO Dettach_Orange_1;
+        PulseDO Dettach_Orange_2;
+        SetDO Reset_Collors, 0;
+        
+        
+        ! Move Plate to Conveyor
+        MoveL Mid_point,v1000,z200,smc_gripper\WObj:=wobj0;
+        
+        MoveL Offs(Plate, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        MoveL Plate, v500,fine,smc_gripper\WObj:=wobj0;
+        PulseDO Attach_Plate;
+        WaitTime 0.5;
+        MoveL Offs(Plate, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        
+        MoveL Mid_point,v1000,z200,smc_gripper\WObj:=wobj0;
+        
+        MoveL Offs(Plate_target, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        MoveL Plate_target, v500,fine,smc_gripper\WObj:=wobj0;
+        PulseDO Dettach_Plate;
+        WaitTime 0.5;
+        MoveL Offs(Plate_target, 0, 0, offset_z), v500,fine,smc_gripper\WObj:=wobj0;
+        
+        
+        ! Move Collor 1
+        MoveL Mid_point,v1000,z200,smc_gripper\WObj:=wobj0;
+        
+        MoveL Offs(Orange_1, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        MoveL Orange_1, v500,fine,smc_gripper\WObj:=wobj0;
+        PulseDO Attach_Orange_1;
+        WaitTime 0.5;
+        PulseDO Move_plate;
+        WaitTime 3;
+        PulseDO Program_Done;
+        MoveL Offs(Orange_1, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        
+        MoveL Mid_point,v1000,z200,smc_gripper\WObj:=wobj0;
+        
+        MoveL Offs(Orange_target_1, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        MoveL Orange_target_1, v500,fine,smc_gripper\WObj:=wobj0;
+        PulseDO Dettach_Orange_1;
+        WaitTime 0.5;
+        MoveL Offs(Orange_target_1, 0, 0, offset_z), v500,fine,smc_gripper\WObj:=wobj0;
+        
+        
+        ! Move Collor 2
+        MoveL Mid_point,v1000,z200,smc_gripper\WObj:=wobj0;
+        
+        MoveL Offs(Orange_2, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        MoveL Orange_2, v500,fine,smc_gripper\WObj:=wobj0;
+        PulseDO Attach_Orange_2;
+        WaitTime 0.5;
+        MoveL Offs(Orange_2, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        
+        MoveL Mid_point,v1000,z200,smc_gripper\WObj:=wobj0;
+        
+        MoveL Offs(Orange_target_2, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        MoveL Orange_target_2, v500,fine,smc_gripper\WObj:=wobj0;
+        PulseDO Dettach_Orange_2;
+        WaitTime 0.5;
+        MoveL Offs(Orange_target_2, 0, 0, offset_z), v500,fine,smc_gripper\WObj:=wobj0;
+        
+        
+        WaitTime 0.5;
+        
+        PulseDO Move_plate;
+        
+       
+    
+    ENDPROC
+    
+    
+    PROC Path_10()
+        MoveL Mid_point,v1000,z100,smc_gripper\WObj:=wobj0;
+        MoveL Orange_1,v1000,z100,smc_gripper\WObj:=wobj0;
+        MoveL Orange_2,v1000,z100,smc_gripper\WObj:=wobj0;
+        MoveL Plate,v1000,z100,smc_gripper\WObj:=wobj0;
+        MoveL Orange_target_1,v1000,z100,smc_gripper\WObj:=wobj0;
+        MoveL Orange_target_2,v1000,z100,smc_gripper\WObj:=wobj0;
+        MoveL Plate_target,v1000,z100,smc_gripper\WObj:=wobj0;
+    ENDPROC
+ENDMODULE

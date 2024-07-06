@@ -1,0 +1,32 @@
+------------------------
+inputs set: 
+outputs set: 
+------------------------
+Ref status mask = 0x0
+Calculated ref crc = 0
+Received reference:
+Seqno 0 *** checksum 0
+Channels 01-07 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Channels 08-14 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+------------------------
+Manual ------- 
+0
+0
+Run_chain ------- 
+0
+0
+Reference CRC ------- 
+0
+0
+Feedback CRC ------- 
+0
+0
+Input x-mon errors ------- 
+
+
+Result x-mon errors ------- 
+
+
+Output x-mon errors ------- 
+
+------------------------

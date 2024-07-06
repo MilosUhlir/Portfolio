@@ -1,0 +1,90 @@
+------------------------
+no of axes = 0
+------------------------
+cal_off = 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+------------------------
+cal_pos = 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+------------------------
+sync_corr = 0 0 0 0 0 0 0 0 0 
+------------------------
+joint ID = -1 -1 -1 -1 -1 -1 -1 -1 -1 
+------------------------
+shutdown cal_off = 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+------------------------
+shutdown qmea = 10000000000.000 10000000000.000 10000000000.000 10000000000.000 10000000000.000 10000000000.000 10000000000.000 10000000000.000 10000000000.000 
+------------------------
+shutdown speed = 10000000000.000 10000000000.000 10000000000.000 10000000000.000 10000000000.000 10000000000.000 10000000000.000 10000000000.000 10000000000.000 
+------------------------
+startup check factor = 0.0e+00 0.0e+00 0.0e+00 0.0e+00 0.0e+00 0.0e+00 0.0e+00 0.0e+00 0.0e+00 
+------------------------
+sample time = 4.032 ms
+------------------------
+robot model: 
+robot baseframe:
+   pos = ( 0.000000   0.000000   0.000000) mm
+   orient:
+   | 1   0   0|
+   | 0   1   0|
+   | 0   0   1|
+   elbow_offset = ( 0.000000   0.000000   0.000000) mm
+------------------------
+AABB:             1.0
+ACK:              1.0
+ActExpression:    1.0
+AxisMeasUpdate:   1.01
+AxisMeasUpdFSoE:  1.0
+AxisRefUpdate:    1.0
+cartesian:        1.0
+cartesian2d:      1.0
+CBC:              1.0
+CES:              1.0
+config_loader:    1.0
+EmStop:           1.0
+geom_tools:       1.0
+InsideRange:      1.0
+InsideZone:       1.0
+kinematic_models: 1.0
+KinUpdate:        1.0
+DynUpdate:        1.0
+OSR:              1.0
+OutputAction:     1.03
+OVR:              1.0
+polygon_zone:     1.0
+pose:             1.0
+quaternion:       1.0
+rotation_matrix:  1.0
+SafeInput:        1.0
+SafeOutput:       1.0
+safety_buffers:   1.0
+SAR:              1.0
+SAS:              1.0
+SBR:              1.2
+SST:              1.0
+SSV:              1.0
+STS:              1.0
+STZ:              1.01
+SyncUpdate:       1.0
+TOM:              1.0
+ToolForceSupv:    1.0
+ToolUpdate:       1.0
+ZoneSpeedPrio:    1.0
+
+---------------------------
+Hashid lookup tables SC: 0
+---------------------------
+Map: ZONE, count:0
+Map: RANGE, count:0
+Map: TOOL, count:0
+Map: PAYLOAD, count:0
+Map: TPO, count:0
+Map: TSP, count:0
+Map: TOR, count:0
+Map: TFO, count:0
+Map: APO, count:0
+Map: ASP, count:0
+Map: SST, count:0
+Map: OSA, count:0
+Map: STOP, count:3
+     [00] c6fcbbd9
+     [01] 4e77d400
+     [02] 5deae761

@@ -1,0 +1,81 @@
+Init done                              Yes
+Config state                           NOT configured
+Manual mode only                       FALSE
+Config Version                         3.00.00
+Controller id                          VIRTUAL_CONTROLLER
+SafetyMode                             ERROR
+ModeSelectorType                       SW 3-Way Mode Selector (No-IO)
+ModeSelectorSetting                    AUTO
+Detachable TPU state                   INACTIVE
+
+SC Lock Info:
+  is present    : 0
+  locked by     : 
+  lock date     : 
+  lock checksum : 0000000000000000000000000000000000000000000000000000000000000000
+File Lock Info:
+  is present    : 0
+  locked by     : 
+  lock date     : 
+scoordLockError : 0
+
+File checksum   : 9302DDC2BDDA49353FED592ACE78D27A192AA42BED389F47FD0A14715F44C47E
+User checksum   : 0000000000000000000000000000000000000000000000000000000000000000
+
+FuncIO                                 Signal Name                      Value
+AutomaticMode                          (Could not get signal name)
+ManualMode                             (Could not get signal name)
+ManualFullSpeedMode                    (Could not get signal name)
+AutoIn                                 (Not defined)
+ManualIn                               (Not defined)
+ManualFSIn                             (Not defined)
+LocalEmergencyStopStatus               (Could not get signal name)
+ExternalEmergencyStopStatus            (Could not get signal name)
+EmergencyStopActivated                 (Could not get signal name)
+DriveEnable                            (Could not get signal name)
+DriveEnableFeedback                    (Could not get signal name)
+ExternalPowerControlFeedback           (Not defined)
+ExtComShutdownReq                      (Not defined)
+ExtComShutdownAck                      (Not defined)
+ProtectiveStop                         (Could not get signal name)
+EnableSwitch                           (Could not get signal name)
+DeviceEnable1                          (Could not get signal name)
+DriveEnableAllowed                     (Could not get signal name)
+ProtectiveStop2                        (Not defined)
+
+Callback Stats :
+[idx] Command                          Count  MaxTimeUs
+[  0] ERROR                            0      0
+[  1] CONFIGURE_SC                     1      105151
+[  2] RESET_CONFIGURATION              1      22
+[  3] SET_SAFETY_MODE                  0      0
+[  4] GET_SAFETY_MODE                  0      0
+[  5] GET_EXT_COM_STOP_ACK             0      0
+[  6] ACTIVATE_NETWORKS                0      0
+[  7] DEACTIVATE_NETWORKS              0      0
+[  8] SET_MODE_SELECTOR_TYPE           0      0
+[  9] SET_MODE_SELECTOR_SETTING        0      0
+[ 10] SET_CONTROLLER_ID                1      0
+[ 11] GET_LOCK_INFO                    0      0
+[ 12] SET_LOCK_INFO                    0      0
+[ 13] CLEAR_LOCK_INFO                  0      0
+[ 14] GET_FILE_CHECKSUM                0      0
+[ 15] SET_CBC_COMMAND                  0      0
+[ 16] GET_CBC_INFO                     0      0
+[ 17] FACTORY_RESTORE                  0      0
+[ 18] GET_USER_CHECKSUM                0      0
+[ 19] GET_OPERATING_MODE               0      0
+[ 20] GET_RUNCHAIN_STATUS              0      0
+[ 21] SET_DEVICE_ENABLE_1              0      0
+[ 22] SET_DEVICE_ENABLE_2              0      0
+[ 23] MOTORS_ON_EVENT                  0      0
+[ 24] DETACHABLE_TPU_START_PERIOD      0      0
+[ 25] DETACHABLE_TPU_GET_STATUS        0      0
+[ 26] DETACHABLE_TPU_CANCEL_PERIOD     0      0
+[ 27] ENABLING_DEVICE_REQUIRED         0      0
+[ 28] SET_SAMPLE_TIME                  0      0
+[ 29] AXIS_COMPUTER_NONE               1      1
+[ 30] BRAKE_RELEASE_STATUS             0      0
+[ 31] BRAKE_RELEASE_REQUEST            0      0
+[ 32] BRAKE_RELEASE_CONFIRMED          0      0
+[ 33] GET_PROTECTED_GROUP_CHECKSUM     0      0

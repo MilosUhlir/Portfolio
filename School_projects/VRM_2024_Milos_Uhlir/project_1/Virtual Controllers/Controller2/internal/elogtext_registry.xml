@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding="utf-8" ?>
+<elogtext_registry xmlns="urn:abb-robotics-registry-elog-text">
+<entry domain_no="1" min="0" max="9999" prepath="$PRODUCTS/RobotControl_7.12.0/language/install/../" postpath="/controller/elog/opr_elogtext.xml"/>
+<entry domain_no="2" min="0" max="9999" prepath="$PRODUCTS/RobotControl_7.12.0/language/install/../" postpath="/controller/elog/sys_elogtext.xml"/>
+<entry domain_no="3" min="0" max="9999" prepath="$PRODUCTS/RobotControl_7.12.0/language/install/../" postpath="/controller/elog/hw_elogtext.xml"/>
+<entry domain_no="4" min="0" max="9999" prepath="$PRODUCTS/RobotControl_7.12.0/language/install/../" postpath="/controller/elog/arl_elogtext.xml"/>
+<entry domain_no="5" min="0" max="9999" prepath="$PRODUCTS/RobotControl_7.12.0/language/install/../" postpath="/controller/elog/moc_elogtext.xml"/>
+<entry domain_no="7" min="0" max="9999" prepath="$PRODUCTS/RobotControl_7.12.0/language/install/../" postpath="/controller/elog/io_elogtext.xml"/>
+<entry domain_no="8" min="0" max="9999" prepath="$PRODUCTS/RobotControl_7.12.0/language/install/../" postpath="/controller/elog/usr_elogtext.xml"/>
+<entry domain_no="9" min="0" max="9999" prepath="$PRODUCTS/RobotControl_7.12.0/language/install/../" postpath="/controller/elog/safety_elogtext.xml"/>
+<entry domain_no="10" min="0" max="0" prepath="$PRODUCTS/RobotControl_7.12.0/language/install/../" postpath="/controller/elog/int_elogtext.xml"/>
+<entry domain_no="11" min="4800" max="4814" prepath="$PRODUCTS/RobotControl_7.12.0/language/install/../" postpath="/controller/elog/miscproc_elogtext.xml"/>
+<entry domain_no="12" min="0" max="9999" prepath="$PRODUCTS/RobotControl_7.12.0/language/install/../" postpath="/controller/elog/cfg_elogtext.xml"/>
+<domains prepath="$PRODUCTS/RobotControl_7.12.0/language/install/../" postpath="/controller/elog/elog_domains.xml"/>
+<domains prepath="$PRODUCTS/RobotControl_7.12.0/options/cse/language/" postpath="/cse_elogdomain.xml"/>
+<entry domain_no="17" min="1" max="999" prepath="$PRODUCTS/RobotControl_7.12.0/options/cse/language/" postpath="/cse_elogtext.xml"/>
+<titles prepath="$PRODUCTS/RobotControl_7.12.0/options/cse/language/" postpath="/cse_elogtitles.xml"/>
+</elogtext_registry>

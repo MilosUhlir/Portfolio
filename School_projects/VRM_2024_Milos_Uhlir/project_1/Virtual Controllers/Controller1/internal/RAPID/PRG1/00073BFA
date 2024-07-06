@@ -1,0 +1,89 @@
+MODULE Module1
+    
+    
+    VAR num offset_z := 100;
+    
+    CONST robtarget Home:=[[745.848316065,-332.011053759,497.438457632],[0,0,1,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Box_placement:=[[605.950804603,-56.736728005,30.007978346],[0,0,1,0],[-1,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Box_1:=[[558.020004656,-772.425728005,28.493978346],[0,0,1,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Lid:=[[108.020005211,-772.426282805,73.493527283],[0,0,1,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Lid_Placement:=[[605.951004655,-56.736728005,90.007978347],[0,0,1,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Plate_Box:=[[605.951004655,-56.736728005,65.007978347],[0,0,1,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Plate_pickup:=[[310.630005211,625.554717195,174.334527283],[0,0,1,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+
+    
+    PROC main()
+        !Add your code here
+        
+        WaitDI Start_Program, 1;
+        
+        
+        PulseDO Reset_boxes;
+        PulseDO Do_Dettach_box_1;
+        PulseDO Do_Dettach_Lid_1;
+        PulseDO Do_Dettach_Plate;
+        
+        
+        MoveL Home,v1000,z200,smc_gripper\WObj:=wobj0;
+        
+        MoveL Offs(Box_1, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        MoveL Box_1, v500,fine,smc_gripper\WObj:=wobj0;
+        PulseDO Do_Attach_box_1;
+        WaitTime 0.5;
+        MoveL Offs(Box_1, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        
+        MoveL Home,v1000,z100,smc_gripper\WObj:=wobj0;
+        
+        MoveL Offs(Box_placement, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        MoveL Offs(Box_placement, 0, 0, 0), v500,fine,smc_gripper\WObj:=wobj0;
+        PulseDO Do_Dettach_box_1;
+        WaitTime 0.5;
+        MoveL Offs(Box_placement, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        
+        MoveL Home,v1000,z100,smc_gripper\WObj:=wobj0;
+        
+        MoveL Offs(Plate_pickup, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        MoveL Offs(Plate_pickup, 0, 0, 0), v500,fine,smc_gripper\WObj:=wobj0;
+        PulseDO Do_Attach_Plate;
+        WaitTime 0.5;
+        MoveL Offs(Plate_pickup, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        
+        MoveL Home,v1000,z100,smc_gripper\WObj:=wobj0;
+        
+        MoveL Offs(Plate_Box, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        MoveL Offs(Plate_Box, 0, 0, 0), v500,fine,smc_gripper\WObj:=wobj0;
+        PulseDO Do_Dettach_Plate;
+        WaitTime 0.5;
+        MoveL Offs(Plate_Box, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        
+        MoveL Home,v1000,z100,smc_gripper\WObj:=wobj0;
+        
+        MoveL Offs(Lid, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        MoveL Offs(Lid, 0, 0, 0), v500,fine,smc_gripper\WObj:=wobj0;
+        PulseDO Do_Attach_Lid_1;
+        WaitTime 0.5;
+        MoveL Offs(Lid, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        
+        MoveL Home,v1000,z100,smc_gripper\WObj:=wobj0;
+        
+        MoveL Offs(Lid_Placement, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        MoveL Offs(Lid_Placement, 0, 0, 0), v500,fine,smc_gripper\WObj:=wobj0;
+        PulseDO Do_Dettach_Lid_1;
+        WaitTime 0.5;
+        MoveL Offs(Lid_Placement, 0, 0, offset_z), v500,z10,smc_gripper\WObj:=wobj0;
+        
+        
+    ENDPROC
+
+    
+    
+    PROC Path_10()
+        MoveL Box_1,v1000,z100,smc_gripper\WObj:=wobj0;
+        MoveL Box_placement,v1000,z100,smc_gripper\WObj:=wobj0;
+        MoveL Home,v1000,z100,smc_gripper\WObj:=wobj0;
+        MoveL Lid,v1000,z100,smc_gripper\WObj:=wobj0;
+        MoveL Lid_Placement,v1000,z100,smc_gripper\WObj:=wobj0;
+        MoveL Plate_Box,v1000,z100,smc_gripper\WObj:=wobj0;
+        MoveL Plate_pickup,v1000,z100,smc_gripper\WObj:=wobj0;
+    ENDPROC
+ENDMODULE

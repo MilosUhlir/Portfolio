@@ -1,0 +1,468 @@
+Global pool was restored.
+System pool was restored.
+Startmode is WARM
+No ExternalUAS configuration found
+
+Script begin: C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/system/startup.cmd
+01:00:00:45010 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.axiscomputer.none
+
+Script begin: C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/system/startup_with_axc.cmd
+01:00:00:45013 Status 0 from startup_log
+Begin system startup
+01:00:00:45016 Status 0 from echo
+01:00:00:45018 Status 0 from invoke2 s17_initialize
+01:00:00:45020 Status 0 from invoke AxcHal_InitModule
+01:00:00:45022 Status 0 from invoke AxcHal_StartModule
+01:00:04:45000 Status 0 from delay
+C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller2/TEMP has been mounted.
+01:00:04:45003 Status 0 from baseinit
+Goto to label: NO_ASCII_LOG
+01:00:04:45006 Status 0 from getkey ASCIILogMedia
+01:00:04:45008 Status 0 from uprobe_init
+01:00:04:45010 Status 0 from debug_service_base_init
+01:00:04:45012 Status 0 from invoke S33_01_create
+01:00:04:45014 Status 0 from S33_01_init
+01:00:04:45016 Status 0 from invoke AxcServoControl_InitModule
+Goto to label: VC_MCHEXCEPTION_SKIP
+01:00:04:45019 Status 0 from ifvc VC_MCHEXCEPTION_SKIP
+01:00:04:45021 Status 0 from invoke S98_01_create
+01:00:04:45023 Status 0 from S98_01_init
+Loading Safety Controller images
+01:00:04:45026 Status 0 from echo
+01:00:04:45028 Status 0 from invoke scinit_load_and_start_safety_controller
+Goto to label: VC_SEP_SKIP
+01:00:04:45031 Status 0 from ifvc VC_SEP_SKIP
+Goto to label: VC_CS_SKIP
+01:00:04:45034 Status 0 from ifvc VC_CS_SKIP
+01:00:04:45036 Status 0 from bb_populate
+01:00:04:45038 Status 0 from bb_populate
+01:00:04:45040 Status 0 from bb_populate
+01:00:04:45042 Status 0 from bb_populate
+01:00:04:45044 Status 0 from bb_populate
+01:00:04:45046 Status 0 from bb_populate
+01:00:04:45048 Status 0 from bb_populate
+01:00:04:45050 Status 0 from bb_populate
+01:00:04:45052 Status 0 from bb_populate
+01:00:04:45054 Status 0 from bb_populate
+01:00:04:45056 Status 0 from bb_populate
+01:00:04:45058 Status 0 from bb_populate
+01:00:04:45060 Status 0 from sysdmp_init
+01:00:04:45062 Status 0 from task 
+01:00:04:45064 Status 0 from debug_service_init
+01:00:04:45066 Status 0 from sysdmp_add
+01:00:04:45068 Status 0 from sysdmp_add
+01:00:04:45070 Status 0 from sysdmp_add
+01:00:04:45072 Status 0 from sysdmp_add
+01:00:04:45074 Status 0 from sysdmp_add
+01:00:04:45076 Status 0 from sysdmp_add
+01:00:04:45078 Status 0 from sysdmp_add
+Goto to label: NO_WVLOG
+01:00:04:45081 Status 0 from ifvc NO_WVLOG
+Goto to label: NO_ETHCAP
+01:00:04:45084 Status 0 from ifvc NO_ETHCAP
+01:00:04:45086 Status 0 from sysdmp_add
+01:00:04:45088 Status 0 from sysdmp_add
+01:00:04:45090 Status 0 from sysdmp_add
+01:00:04:45092 Status 0 from task 
+01:00:04:51000 Status 0 from synchronize task
+01:00:04:51002 Status 0 from go task
+01:00:04:51004 Status 0 from task 
+01:00:04:51006 Status 0 from task 
+01:00:04:51008 Status 0 from task 
+Goto to label: VC_NO_CLOCK_PROBE
+01:00:04:51011 Status 0 from ifvc VC_NO_CLOCK_PROBE
+[94m
+24-04-09  11:25:07 MC0: type = STATE_CHANGE id = Operational code = 45 (10045)
+[37m
+01:00:04:51017 Status 0 from basenew
+Base services started
+01:00:04:51020 Status 0 from echo
+Goto to label: VC_NO_REMOTE_DIAGNOSTIC
+01:00:04:51023 Status 0 from ifvc VC_NO_REMOTE_DIAGNOSTIC
+01:00:04:51025 Status 0 from S98_01_new
+01:00:04:51027 Status 0 from direxist C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller2/TEMP/rw_trash
+Goto to label: NEXT_STEP
+01:00:04:51030 Status 0 from goto NEXT_STEP
+Initializing system interrupts
+01:00:04:51033 Status 0 from print
+01:00:04:51035 Status 0 from invoke AxcServoControl_StartModule
+01:00:07:51000 Status 0 from delay
+Goto to label: VC_NO_MC_SEP_UPGRADE
+01:00:07:51003 Status 0 from ifvc VC_NO_MC_SEP_UPGRADE
+Goto to label: VC_NO_MC_CS_UPGRADE
+01:00:07:51006 Status 0 from ifvc VC_NO_MC_CS_UPGRADE
+Goto to label: VC_NO_MC_FPGA_UPGRADE
+01:00:07:51009 Status 0 from ifvc VC_NO_MC_FPGA_UPGRADE
+01:00:07:51011 Status 0 from invoke fciInit
+01:00:07:51014 Status 0 from init eio
+01:00:07:51016 Status 0 from invoke internalBusDrv
+01:00:07:51018 Status 0 from task 
+01:00:07:51020 Status 0 from task 
+01:00:07:51022 Status 0 from invoke incInstallDriver
+Goto to label: LOAD_CMD
+01:00:07:51025 Status 0 from fileexist C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/options/enms/en_base.cmd
+
+Script begin: C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/options/enms/en_base.cmd
+01:00:07:51028 Status 0 from sysdmp_add
+01:00:07:51030 Status 0 from task 
+01:00:07:51032 Status 0 from task 
+01:00:07:51034 Status 0 from task 
+01:00:07:51036 Status 0 from invoke incInstallDriver
+Script end: C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/options/enms/en_base.cmd
+01:00:07:51039 Status 0 from include 
+Goto to label: NO_BONJOUR_DAEMON
+01:00:07:51042 Status 0 from ifvc NO_BONJOUR_DAEMON
+01:00:07:51044 Status 0 from invoke2 init_mempools
+01:00:07:51046 Status 0 from task 
+01:00:07:51049 Status 0 from task 
+01:00:07:51051 Status 0 from task 
+01:00:07:51055 Status 0 from task 
+01:00:07:51057 Status 0 from task 
+Starting features - phase 1 of 5
+01:00:07:51060 Status 0 from echo
+Goto to label: LOAD_CMD
+01:00:07:51063 Status 0 from fileexist C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller2/internal/opt_l0.cmd
+
+Script begin: C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller2/internal/opt_l0.cmd
+
+Script begin: C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/options/integratedIO/integratedIO_opt.cmd
+01:00:07:51067 Status -1 from sysdmp_add
+ ... will continue!
+Starting integratedIOTasks and installs the driver/networks
+01:00:07:51071 Status 0 from echo
+01:00:07:51073 Status -1 from task 
+ ... will continue!
+01:00:07:51076 Status -1 from task 
+ ... will continue!
+Driver entry integratedIO_inc_driver_entry not found, status = -1
+01:00:07:51080 Status -1 from invoke incInstallDriver
+ ... will continue!
+... Done
+01:00:07:51084 Status 0 from echo
+Script end: C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/options/integratedIO/integratedIO_opt.cmd
+01:00:07:51087 Status 0 from include ... Done
+
+Script begin: C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/options/sc/ScInc_opt.cmd
+Starting ScIncTasks and installs the driver/networks
+01:00:07:51091 Status 0 from echo
+01:00:07:51093 Status 0 from task 
+01:00:07:51095 Status 0 from task 
+01:00:07:51097 Status 0 from invoke incInstallDriver
+End of ScIncTasks installation
+01:00:07:51100 Status 0 from echo
+Script end: C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/options/sc/ScInc_opt.cmd
+01:00:07:51103 Status 0 from include End of ScIncTasks installation
+Script end: C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller2/internal/opt_l0.cmd
+01:00:07:51106 Status 0 from include End of ScIncTasks installation
+01:00:07:51109 Status 0 from init motion
+01:00:07:51113 Status 0 from init rol
+01:00:07:51117 Status 0 from init cab
+01:00:07:51119 Status 0 from init bar
+01:00:07:51121 Status 0 from init pgmrun
+01:00:07:51124 Status 0 from init rapid
+01:00:07:51126 Status 0 from init puscfg
+01:00:07:51128 Status 0 from invoke sdlog_init
+01:00:07:51130 Status 0 from task 
+Goto to label: VC_CABSUPTS_SKIP
+01:00:07:51133 Status 0 from ifvc VC_CABSUPTS_SKIP
+01:00:07:51136 Status 0 from invoke2 sevt_safety_init
+01:00:07:51138 Status 0 from invoke2 scsafIntBusInit
+01:00:07:51140 Status 0 from invoke2 epanel_device_init
+01:00:07:51142 Status 0 from invoke2 axc_brd_create_IntBusDrvSys
+01:00:07:51144 Status 0 from task 
+01:00:07:51146 Status 0 from task 
+01:00:07:51148 Status 0 from task 
+01:00:07:51150 Status 0 from task 
+01:00:07:55000 Status 0 from reconfigure eio
+Starting Safety Controller orchestrator
+01:00:07:55003 Status 0 from echo
+01:00:07:55005 Status 0 from task 
+  Cpu1 in state ready
+01:00:26:771000 Status 0 from invoke2 scorch_wait_for_early_setup_done
+01:00:26:771002 Status 0 from task 
+01:00:26:771004 Status 0 from task 
+01:00:26:771006 Status 0 from task 
+01:00:26:771008 Status 0 from task 
+01:00:26:771010 Status 0 from task 
+01:00:26:771012 Status 0 from task 
+01:00:26:771014 Status 0 from task 
+01:00:26:771016 Status 0 from task 
+01:00:26:771018 Status 0 from task 
+01:00:26:771020 Status 0 from task 
+01:00:26:771022 Status 0 from task 
+01:00:26:771024 Status 0 from task 
+01:00:26:771026 Status 0 from task 
+01:00:26:771028 Status 0 from task 
+01:00:26:771030 Status 0 from task 
+01:00:26:771032 Status 0 from task 
+01:00:26:771034 Status 0 from task 
+01:00:26:771036 Status 0 from task 
+01:00:26:771038 Status 0 from task 
+01:00:26:771040 Status 0 from task 
+01:00:26:771042 Status 0 from task 
+01:00:26:771044 Status 0 from task 
+01:00:26:771046 Status 0 from task 
+01:00:26:771048 Status 0 from task 
+01:00:26:771050 Status 0 from task 
+01:00:26:771052 Status 0 from task 
+01:00:26:771054 Status 0 from task 
+Goto to label: VC_AXC_SKIP
+01:00:26:771062 Status 0 from ifvc VC_AXC_SKIP
+01:00:26:771064 Status 0 from task 
+01:00:26:771066 Status 0 from task 
+01:00:26:771068 Status 0 from task 
+01:00:26:771070 Status 0 from task 
+01:00:26:771072 Status 0 from task 
+01:00:26:771074 Status 0 from task 
+01:00:26:771076 Status 0 from task 
+01:00:26:771078 Status 0 from task 
+01:00:26:771080 Status 0 from task 
+01:00:26:771082 Status 0 from task 
+01:00:26:771084 Status 0 from task 
+01:00:26:771086 Status 0 from task 
+01:00:26:771088 Status 0 from task 
+01:00:26:771090 Status 0 from task 
+01:00:26:771092 Status 0 from task 
+01:00:26:771094 Status 0 from task 
+01:00:26:771096 Status 0 from task 
+01:00:26:771099 Status 0 from task 
+01:00:26:771101 Status 0 from task 
+01:00:26:771105 Status 0 from task 
+01:00:26:771108 Status 0 from task 
+01:00:26:771111 Status 0 from task 
+01:00:26:771113 Status 0 from task 
+01:00:26:771116 Status 0 from task 
+01:00:26:771118 Status 0 from task 
+01:00:26:771120 Status 0 from task 
+01:00:26:771123 Status 0 from task 
+Waiting for task group 1 to start
+01:00:26:771126 Status 0 from print
+01:00:26:777000 Status 0 from synchronize task
+01:00:27:277000 Status 0 from delay
+Rapi-Subscription running on slot: 204
+Message (cmd/msgType: 299/3) received from sid: 0
+01:00:27:277012 Status 0 from go task
+Goto to label: VC_AXC_SKIP
+01:00:27:277015 Status 0 from ifvc VC_AXC_SKIP
+Starting features - phase 2 of 5
+01:00:27:277018 Status 0 from echo
+01:00:27:277020 Status 0 from fileexist C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller2/internal/option.cmd
+Goto to label: NEXT_STEP
+01:00:27:277023 Status 0 from goto NEXT_STEP
+Starting motion system
+01:00:27:277026 Status 0 from echo
+Simulated moc_io.
+Message (cmd/msgType: 299/3) received from sid: 0
+STATMATS. New motion_planner: motion_planner_1
+STATMATS. New motion_planner: motion_planner_2
+STATMATS. New motion_planner: motion_planner_3
+STATMATS. New motion_planner: motion_planner_4
+STATMATS. New motion_planner: motion_planner_5
+STATMATS. New motion_planner: motion_planner_6
+STATMATS. New motion_planner: motion_planner_7
+01:00:29:164000 Status 0 from new motion
+SISMA_BS_INFO 41152
+01:00:30:664000 Status 0 from delay
+01:00:30:664002 Status 0 from connect_dependings SYS_STORED_OBJ_CAB
+01:00:30:664004 Status 0 from if SYNCROB
+Goto to label: NOSYNC
+01:00:30:664007 Status 0 from goto NOSYNC
+Waiting for motion system to start
+01:00:30:664010 Status 0 from echo
+01:00:30:670000 Status 0 from synchronize task
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+01:00:30:670019 Status 0 from go task
+Synchronizing industrial networks
+01:00:30:670022 Status 0 from echo
+01:00:30:670049 Status 0 from io_synchronize
+Goto to label: VIRTIOTS_RUN
+01:00:30:670052 Status 0 from ifvc VIRTIOTS_RUN
+01:00:30:670054 Status 0 from task 
+Starting RAPID system
+01:00:30:670057 Status 0 from echo
+01:00:30:670067 Status 0 from invoke rldryrun_start
+01:00:30:670072 Status 0 from invoke rlcyclic_start
+01:00:30:670077 Status 13 from invoke rlvisualize_start
+01:00:30:670079 Status 0 from invoke rldata_init
+Message (cmd/msgType: 299/3) received from sid: 0
+------------number_of_tasks 1 
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+01:00:31:35007 Status 0 from new rapid
+Starting features - phase 3 of 5
+01:00:31:35010 Status 0 from echo
+01:00:31:35012 Status 0 from fileexist C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller2/internal/opt_l1.cmd
+Goto to label: NEXT_STEP
+01:00:31:35015 Status 0 from goto NEXT_STEP
+[94m
+24-04-09  11:25:08 MC0: type = STATE_CHANGE id = Operational code = 10 (10010)
+[37m
+[94m
+24-04-09  11:25:08 MC0: type = STATE_CHANGE id = Operational code = 17 (10017)
+[37m
+01:00:35:489120 Status 0 from new cab
+Starting communication services
+01:00:35:489123 Status 0 from echo
+01:00:35:489125 Status 0 from invoke2 set_max_allowed_robapi_wan_connections
+01:00:35:489127 Status 0 from task 
+01:00:35:489129 Status 0 from task 
+01:00:35:489134 Status 0 from task 
+01:00:35:489136 Status 0 from task 
+01:00:35:489140 Status 0 from task 
+[94m
+24-04-09  11:25:08 MC0: type = STATE_CHANGE id = Operational code = 155 (10155)
+arg 0: 1 
+arg 1: T_ROB1
+[37m
+01:00:35:489150 Status 0 from task 
+01:00:35:489153 Status 0 from task 
+01:00:35:489155 Status 0 from task 
+01:00:35:489160 Status 0 from task 
+01:00:35:489162 Status 0 from task 
+01:00:35:489164 Status 0 from task 
+01:00:35:489175 Status 0 from task 
+01:00:35:489177 Status 0 from task 
+Starting features - phase 4 of 5
+01:00:35:489180 Status 0 from echo
+01:00:35:489182 Status 0 from fileexist C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller2/internal/opt_l2.cmd
+Goto to label: NEXT_STEP
+01:00:35:489185 Status 0 from goto NEXT_STEP
+01:00:35:489187 Status 0 from task 
+Goto to label: NETSCANSKIP
+01:00:35:489190 Status 0 from ifvc NETSCANSKIP
+Finalizing RAPID system
+01:00:35:489193 Status 0 from echo
+[94m
+24-04-09  11:25:08 MC0: type = STATE_CHANGE id = Operational code = 2 (10002)
+arg 0: 1 arg 1: 0 
+arg 2: T_ROB1
+[37m
+01:00:35:495001 Status 0 from synchronize task
+01:00:35:495003 Status 0 from rapid_startup_ready
+01:00:35:495005 Status 0 from cab_startup_ready
+Task OPCUAEntryFunc is about to terminate but is registered in Virtual Time. The task will remain in sleeping state
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+01:00:35:495023 Status 0 from go task
+Goto to label: VTSPEED
+01:00:35:495026 Status 0 from ifvc VTSPEED
+01:00:35:495028 Status 0 from invoke VTSetSpeed
+Starting features - phase 1 of 5
+01:00:35:495031 Status 0 from echo
+01:00:35:495033 Status 0 from fileexist C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller2/internal/opt_l3.cmd
+Goto to label: NEXT_STEP
+01:00:35:495036 Status 0 from goto NEXT_STEP
+01:00:35:495038 Status 0 from upgrade_warm_start_completed
+01:00:35:495040 Status 0 from unofficial_rw_notification
+01:00:35:495042 Status 0 from sysdmp_add
+01:00:35:495044 Status 0 from sysdmp_add
+01:00:35:495046 Status 0 from sysdmp_add
+01:00:35:495048 Status 0 from sysdmp_add
+01:00:35:495050 Status 0 from sysdmp_add
+01:00:35:495052 Status 0 from sysdmp_add
+01:00:35:495054 Status 0 from sysdmp_add
+01:00:35:495056 Status 0 from sysdmp_add
+01:00:35:495058 Status 0 from sysdmp_add
+01:00:35:495060 Status 0 from sysdmp_add
+01:00:35:495062 Status 0 from sysdmp_add
+01:00:35:495064 Status 0 from sysdmp_add
+01:00:35:495066 Status 0 from sysdmp_add
+01:00:35:495068 Status 0 from sysdmp_add
+01:00:35:495070 Status 0 from sysdmp_add
+01:00:35:495072 Status 0 from sysdmp_add
+01:00:35:495074 Status 0 from sysdmp_add
+01:00:35:495076 Status 0 from sysdmp_add
+01:00:35:495078 Status 0 from sysdmp_add
+01:00:35:495080 Status 0 from sysdmp_add
+01:00:35:495082 Status 0 from sysdmp_add
+01:00:35:495084 Status 0 from sysdmp_add
+01:00:35:495086 Status 0 from sysdmp_add
+01:00:35:495088 Status 0 from sysdmp_add
+01:00:35:495090 Status 0 from sysdmp_add
+01:00:35:495092 Status 0 from sysdmp_add
+01:00:35:495094 Status 0 from sysdmp_add
+01:00:35:495096 Status 0 from sysdmp_add
+01:00:35:495098 Status 0 from sysdmp_add
+Goto to label: NO_SEP_DIAG
+01:00:35:495101 Status 0 from ifvc NO_SEP_DIAG
+01:00:35:495103 Status 0 from sysdmp_add
+01:00:35:495105 Status 0 from sysdmp_add
+01:00:35:495107 Status 0 from sysdmp_add
+Goto to label: NO_CHKDSK
+01:00:35:495110 Status 0 from ifvc NO_CHKDSK
+01:00:35:495112 Status 0 from sysdmp_add
+01:00:35:495114 Status 0 from sysdmp_add
+01:00:35:495116 Status 0 from sysdmp_add
+01:00:35:495118 Status 0 from sysdmp_add
+Goto to label: NEXT_STEP
+01:00:35:495121 Status 0 from goto NEXT_STEP
+01:00:35:495123 Status 0 from sysdmp_add
+01:00:35:495125 Status 0 from sysdmp_trigger_add
+01:00:35:495127 Status 0 from sysdmp_trigger_add
+01:00:35:495129 Status 0 from sysdmp_trigger_add
+01:00:35:495131 Status 0 from sysdmp_trigger_add
+01:00:35:495133 Status 0 from sysdmp_trigger_add
+01:00:35:495135 Status 0 from sysdmp_trigger_add
+01:00:35:495137 Status 0 from sysdmp_trigger_add
+01:00:35:495139 Status 0 from sysdmp_trigger_add
+01:00:35:495141 Status 0 from sysdmp_trigger_add
+01:00:35:495143 Status 0 from sysdmp_trigger_add
+01:00:35:495145 Status 0 from sysdmp_trigger_add
+01:00:35:495147 Status 0 from sysdmp_trigger_add
+01:00:35:495149 Status 0 from sysdmp_trigger_add
+01:00:35:495151 Status 0 from sysdmp_trigger_add
+01:00:35:495153 Status 0 from sysdmp_trigger_add
+01:00:35:495155 Status 0 from sysdmp_add_logfile
+01:00:35:495157 Status 0 from sysdmp_add_logfile
+01:00:35:495159 Status 0 from sysdmp_add_logfile
+01:00:35:495161 Status 0 from sysdmp_add_logfile
+01:00:35:495163 Status 0 from sysdmp_add_logfile
+01:00:35:495165 Status 0 from sysdmp_add_logfile
+01:00:35:495167 Status 0 from sysdmp_add_logfile
+01:00:35:495169 Status 0 from sysdmp_add_logfile
+01:00:35:495171 Status 0 from sysdmp_add_logfile
+01:00:35:495173 Status 0 from sysdmp_add_logfile
+01:00:35:495175 Status 0 from sysdmp_add_logfile
+01:00:35:495177 Status 0 from sysdmp_add_logfile
+01:00:35:495179 Status 0 from sysdmp_add_logfile
+01:00:35:495181 Status 0 from sysdmp_add_logfile
+01:00:35:495183 Status 0 from sysdmp_add_logfile
+01:00:35:495185 Status 0 from sysdmp_add_logfile
+01:00:35:495187 Status 0 from sysdmp_add_logfile
+01:00:35:495189 Status 0 from sysdmp_add_logfile
+01:00:35:495191 Status 0 from sysdmp_add_logfile
+01:00:35:495193 Status 0 from sysdmp_add_logfile
+01:00:35:495195 Status 0 from sysdmp_add_logfile
+01:00:35:495197 Status 0 from sysdmp_add_logfile
+01:00:35:495199 Status 0 from sysdmp_add_logfile
+01:00:35:495201 Status 0 from sysdmp_add_logfile
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+01:00:35:495203 Status 0 from sysdmp_add_logfile
+01:00:35:505000 Status 0 from sysdmp_add_logfile
+01:00:35:505002 Status 0 from sysdmp_add_logfile
+01:00:35:505004 Status 0 from sysdmp_add_logfile
+01:00:35:505006 Status 0 from sysdmp_add
+01:00:35:505008 Status 0 from sysdmp_add
+Goto to label: VC_CS_SHOW_SKIP
+01:00:35:505011 Status 0 from ifvc VC_CS_SHOW_SKIP
+01:00:35:505013 Status 0 from invoke fpevent_init
+01:00:35:505016 Status 0 from invoke fpcmd_init
+01:00:35:505019 Status 0 from invoke fpconsole_init
+01:00:35:505023 Status 0 from invoke fpdbg_init
+01:00:35:505025 Status 0 from invoke fpdevices_init
+01:00:35:505027 Status 0 from systemrun
+System started
+01:00:35:505030 Status 0 from echo
+01:00:35:505032 Status 0 from fileexist C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller2/internal/post_startup_action.cmd
+Goto to label: NO_POST_ACTION
+01:00:35:505035 Status 0 from goto NO_POST_ACTION
+Script end: C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/system/startup_with_axc.cmd
+01:00:35:505038 Status 0 from include NO_POST_ACTION
+Goto to label: END
+01:00:35:505041 Status 0 from goto END
+Script end: C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/system/startup.cmd

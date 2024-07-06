@@ -1,0 +1,51 @@
+
+ Current scState is READY (2)
+
+ ---- Scheduler execution time (Non-RUNNING states)---------
+ scPreSup          : 1173204 us
+ scPostSup         :  105193 us
+
+ ---- Scheduler execution time (PRE-ERROR state)---------
+ scPreSyncSup      :       0 us
+ scDriveSync       :       0 us
+ scPostSyncSup     :       0 us
+ Scheduler pre error counter : 0
+
+
+ ---- Scheduler execution time (SC_STATE_RUNNING)---------
+ scPreSup          :       0 us
+ scDriveSync       :       0 us
+ scImport          :       0 us
+ scPreLogic        :       0 us
+ scSafetyFunctions :       0 us
+ scPostLogic       :       0 us
+ scExport          :       0 us
+ scPostSup         :       0 us
+ Scheduler run counter : 0
+
+ ---- Scheduler execution time (SC_STATE_RUNNING_SYNC)---------
+ scPreSyncSup      :       0 us
+ scDriveSync       :       0 us
+ scImport          :       0 us
+ scPreLogic        :       0 us
+ scSafetyFunctions :       0 us
+ scSafetyCrossMon  :       0 us
+ scPostLogic       :       0 us
+ scDiagnostic      :       0 us
+ scExport          :       0 us
+ scPostSyncSup     :       0 us
+
+ Longest execution time     : 0 [us]
+ Longest communication time : 0 [us]
+ Scheduler sync counter     : 0
+ Execution time exceeded    : 0 times
+
+ Error counters             : [0][0][0]
+
+ Rec  time  : 0
+
+ Sync time  : 0
+
+ Send time  : 0
+
+ Sample time : 4032

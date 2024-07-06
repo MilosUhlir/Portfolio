@@ -1,0 +1,10 @@
+ ====== PNET log from CPU1 [2024-04-08 21:11:25] [0 us] =======
+
+ [ 0] Diff: 550094270 str: F-Dev: SNC INIT                                             
+ [ 1] Diff:         6 str: F-Host: SNC INIT                                            
+ [ 2] Diff:2649957381 str: F-Dev: SNC INIT                                             
+ [ 3] Diff:         4 str: F-Host: SNC INIT                                            
+ [ 4] Diff:  57205991 str: F-Dev: SNC INIT                                             
+ [ 5] Diff:         3 str: F-Host: SNC INIT                                            
+ [ 6] Diff:  42964787 str: F-Dev: SNC INIT                                             
+ [ 7] Diff:         4 str: F-Host: SNC INIT                                            

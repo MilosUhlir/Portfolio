@@ -1,0 +1,51 @@
+#
+# Generated backup file, do not edit.
+#
+# Originally at: C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller2/TEMP/backup.647842
+# 2024-04-09  11:54:49
+#
+>>SYSTEM_ID:
+VIRTUAL_CONTROLLER
+
+>>PRODUCTS_ID:
+RobotOS Version: 10.0.1
+RobotControl Version: 7.12.0
+FlexPendantSoftwareUpdate Version: 1.13.0
+Robots Version: 1.12.0
+
+  RobotControl Base
+  English
+  3120-1 FlexPendant Limited App Package
+  3120-2 FlexPendant Essential App Package
+  3151-1 FlexPendant Program Package
+  SafeMove Essential
+  Integrated IO
+  System without axis computer
+  Main computer M28.02
+  Motor Commutation
+  Service Info System
+  E10
+  B2
+  Axis Calibration
+  E10 orig/notype
+  Robots Base
+  IRB 1300-7/1.4
+
+>>HOME:
+All public files and directories
+
+>>SYSPAR:
+SYS.cfg
+SIO.cfg
+PROC.cfg
+MMC.cfg
+MOC.cfg
+EIO.cfg
+
+
+>>TASK1: (T_ROB1,,)
+PROGMOD/Module1.modx @ 
+PROGMOD/CalibData.modx @ 
+
+
+>>EOF:

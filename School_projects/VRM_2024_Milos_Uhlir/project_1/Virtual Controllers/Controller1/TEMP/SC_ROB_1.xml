@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<SafetyControllerRobotData version="1.0" xmlns="urn:abb-robotics-safety-controller-robotconfiguration">
+  <Robot robotType="ELBOW" robotTypeName="IRB_1300_1.4_7">
+    <Joint jointId="1" servoLag="2" servoDelay="2" maxSpeedManualMode="38.026801">
+      <Arm>
+        <Kinvec1 x="0" y="0" z="0.280050009" />
+      </Arm>
+      <Transmission transmJoint="129.688995" rotatingMove="true" />
+      <MeasurementChannel node="1" link="1" boardPosition="1" minSquareXYSum="0.2601" maxSquareXYSum="1" />
+    </Joint>
+    <Joint jointId="2" servoLag="2" servoDelay="2" maxSpeedManualMode="43.039801">
+      <Arm>
+        <Kinvec1 x="0.150000006" y="0" z="0.26394999" />
+      </Arm>
+      <Transmission transmJoint="-137" rotatingMove="true" />
+      <MeasurementChannel node="2" link="1" boardPosition="1" minSquareXYSum="0.2601" maxSquareXYSum="1" />
+    </Joint>
+    <Joint jointId="3" servoLag="2" servoDelay="2" maxSpeedManualMode="31.963891">
+      <Arm>
+        <Kinvec1 x="0" y="0" z="0.574999988" />
+      </Arm>
+      <Transmission transmJoint="-104.651001" rotatingMove="true" />
+      <MeasurementChannel node="3" link="1" boardPosition="1" minSquareXYSum="0.2601" maxSquareXYSum="1" />
+    </Joint>
+    <Joint jointId="4" servoLag="2" servoDelay="2" maxSpeedManualMode="33.076801">
+      <Arm>
+        <Kinvec1 x="0" y="0" z="0.0399999991" />
+      </Arm>
+      <Transmission transmJoint="75.8059998" rotatingMove="true" />
+      <MeasurementChannel node="4" link="1" boardPosition="1" minSquareXYSum="0.2601" maxSquareXYSum="1" />
+    </Joint>
+    <Joint jointId="5" servoLag="2" servoDelay="2" maxSpeedManualMode="43.982281">
+      <Arm>
+        <Kinvec1 x="0.675000012" y="0" z="0" />
+      </Arm>
+      <Transmission transmJoint="101" highGearCoupled1="1" lowGearCoupled1="1" rotatingMove="true" />
+      <MeasurementChannel node="5" link="1" boardPosition="1" minSquareXYSum="0.2601" maxSquareXYSum="1" />
+    </Joint>
+    <Joint jointId="6" servoLag="2" servoDelay="2" maxSpeedManualMode="31.415949">
+      <Arm>
+        <Kinvec1 x="0.0900000036" y="0" z="0" />
+      </Arm>
+      <Transmission transmJoint="-50" rotatingMove="true" />
+      <MeasurementChannel node="6" link="1" boardPosition="1" minSquareXYSum="0.2601" maxSquareXYSum="1" />
+    </Joint>
+    <ElbowOffset x="-0.100000001" y="0" z="0.100000001" />
+  </Robot>
+  <STOP1 delay="200" cartDecel="7.6500001" />
+</SafetyControllerRobotData>

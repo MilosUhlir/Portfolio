@@ -1,0 +1,31 @@
+SNC state                    : INIT
+Synced CPUs                  : YES
+SyncTimeMin                  : 4294967295 us
+SyncTimeMax                  : 0 us
+Op Acks received             : 0
+Op Ack timeout               : 0
+LatestErrorCall              : (null)   errorCode 0
+
+***********************************************
+  PCI Info:
+    Send Count                : 0
+    Send Data Length          : 0
+    Send Buffer               :
+    [ ]
+    Receive Buffer            :
+    [ 00 00 00 00 00 00 00 00 ]
+
+***********************************************
+  F-Host Conformance testing:
+    testActive                : 0
+    testCycles                : 0
+    testInput.modHdr.mcId     : 0
+    testInput.data            :
+    [ 00 00 00 00 00 00 ]
+    testOutput.modHdr.mcId    : 0
+    testOutput.data           :
+    [ 00 00 00 00 00 00 ]
+    testResponse              :
+    [ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ]
+    UT_input_data             : 0000
+    UT_output_data            : 0000

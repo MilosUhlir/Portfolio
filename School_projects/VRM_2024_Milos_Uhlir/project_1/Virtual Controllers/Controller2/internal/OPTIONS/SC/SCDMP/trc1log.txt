@@ -1,0 +1,16 @@
+ ====== TRACE log from CPU1 [2024-04-08 21:11:25] [514 us] =======
+
+ [ 0] Diff: 550093907 str: SC state to 1                                              
+ [ 1] Diff:        63 str: Mode selector reset to MANUAL                               
+ [ 2] Diff:       274 str: Feedback: SNC INIT                                          
+ [ 3] Diff:       260 str:  Startup ready                                              
+ [ 4] Diff:         1 str: SC state from 1 to 2                                      
+ [ 5] Diff:   1278310 str: SC state from 2 to 3                                      
+ [ 6] Diff:       235 str: SC state from 3 to 4                                      
+ [ 7] Diff:     72933 str: Feedback: MC_READY_DEVICE                                   
+ [ 8] Diff:       347 str: Feedback: COUPLE_RESULT                                     
+ [ 9] Diff:         0 str: Feedback: SNC RUNNING                                       
+ [10] Diff:         0 str: Feedback: DEVICE_RUNNING                                    
+ [11] Diff:    754243 str: Feedback: MC_READY_DEVICE                                   
+ [12] Diff:       275 str: Feedback: COUPLE_RESULT                                     
+ [13] Diff:         1 str: Feedback: DEVICE_RUNNING                                    

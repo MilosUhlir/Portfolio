@@ -1,0 +1,11 @@
+
+ --- FSoE Master information ---
+     Sync without new data:0
+address, session, state,  sync_cnt, rx_p_cnt, wd_timeout, until_wd, reset_event, reset_cnt, reset_reason t_min t_max t_avg
+
+
+Recv buffer, size 16:
+Send buffer, size 16:
+UnrecoverableFailure: 0
+MCReady: 0
+InitDone: 1

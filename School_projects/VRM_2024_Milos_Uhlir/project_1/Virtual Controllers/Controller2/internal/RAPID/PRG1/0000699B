@@ -1,0 +1,67 @@
+%%%
+    VERSION:1
+    LANGUAGE:ENGLISH
+%%%
+
+MODULE CAL_AX(SYSMODULE, NOVIEW)
+    ! $Revision: 1.0 $
+    !
+    ! AxisCalibration
+    !
+    
+    LOCAL CONST string CALAX_PROC_FILE := "RELEASE:/options/cal_axis/calax_proc.sys";
+    LOCAL CONST string CALAX_ROBOT_CONF := "ROBOTS:/options/cal_axis/calax_rob.sys";
+
+    LOCAL VAR bool robotConfLoaded := FALSE;
+    LOCAL VAR bool axcalloaded:=FALSE;
+
+    PROC AxisCalibration()
+        VAR num TPReadDummy;
+        VAR num answer;        
+        
+        IF robotConfLoaded = FALSE THEN
+            Load \Dynamic, CALAX_ROBOT_CONF;
+            robotConfLoaded:=TRUE;
+        ENDIF
+
+        IF axcalloaded = FALSE THEN
+            Load \Dynamic, CALAX_PROC_FILE;
+            axcalloaded:=TRUE;
+        ENDIF
+
+        %"AxisProc"%;
+
+        UnLoad CALAX_PROC_FILE;
+        UnLoad CALAX_ROBOT_CONF;
+
+        axcalloaded:=FALSE;
+        robotConfLoaded:=FALSE;
+
+        TPShow TP_LATEST;
+
+        RETURN;
+        
+        ERROR
+        TEST ERRNO
+            CASE ERR_FILNOTFND:
+                RAISE;
+            CASE ERR_LOADED:
+                SkipWarn;
+                TRYNEXT;
+            default:
+                TPShow TP_LATEST;
+        ENDTEST
+        UNDO
+        IF axcalloaded THEN
+            UnLoad CALAX_PROC_FILE;
+            axcalloaded:=FALSE;
+        ENDIF
+        IF robotConfLoaded THEN
+            UnLoad CALAX_ROBOT_CONF;
+            robotConfLoaded:=FALSE;
+        ENDIF
+        TPShow TP_LATEST;
+    ENDPROC 
+ ENDMODULE
+
+

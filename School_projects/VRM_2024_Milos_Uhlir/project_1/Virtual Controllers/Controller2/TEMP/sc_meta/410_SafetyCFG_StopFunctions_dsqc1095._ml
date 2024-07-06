@@ -1,0 +1,12 @@
+      <StopFunction id="69447BE5" emStop="false" mode="General" modeReadOnly="true" stopType="Category1Stop" name="G_GeneralStop">
+        <PhysicalInput signalName="ProtectiveStop" />
+      </StopFunction>
+      <StopFunction id="4DF6024A" emStop="true" mode="General" modeReadOnly="true" stopType="Category0Stop" name="ES_ExternalEmergencyStop">
+        <PhysicalInput signalName="ExternalEmergencyStopStatus" />
+      </StopFunction>
+      <StopFunction id="3E5A055A" emStop="true" mode="General" modeReadOnly="true" stopType="Category0Stop" name="TPU_EmergencyStop">
+        <PhysicalInput signalName="LocalEmergencyStopStatus" />
+      </StopFunction>
+      <StopFunction id="CBFAE9E6" emStop="false" mode="Auto" modeReadOnly="true" stopType="Category1Stop" name="A_AutoStop">
+        <PhysicalInput signalName="ProtectiveStop2" />
+      </StopFunction>

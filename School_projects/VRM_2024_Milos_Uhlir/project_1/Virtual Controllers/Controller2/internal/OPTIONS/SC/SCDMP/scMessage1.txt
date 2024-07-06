@@ -1,0 +1,31 @@
+
+ --- Message transfer information ---
+ Received 36 number of messages
+ Sent     0 number of messages
+ Stored   35 number of messages
+
+ --- Message type information ---
+ Message type Axis ref                  received 0 time(s)  isUsed 1  qItemRead 0 qItemWrite 0
+ Message type Axis feedback             received 0 time(s)  isUsed 1  qItemRead 0 qItemWrite 0
+ Message type I/O Feedback              received 0 time(s)  isUsed 1  qItemRead 0 qItemWrite 0
+ Message type Profinet                  received 0 time(s)  isUsed 1  qItemRead 0 qItemWrite 0
+ Message type Command                   received 12 time(s)  isUsed 1  qItemRead 0 qItemWrite 1
+ Message type File                      received 24 time(s)  isUsed 1  qItemRead 0 qItemWrite 0
+ Message type Elog                      received 0 time(s)  isUsed 0  qItemRead 0 qItemWrite 0
+ Message type Cat-1 Stop                received 0 time(s)  isUsed 0  qItemRead 0 qItemWrite 0
+ Message type I/O cross monitor         received 0 time(s)  isUsed 0  qItemRead 0 qItemWrite 0
+ Message type Synchronize               received 0 time(s)  isUsed 0  qItemRead 0 qItemWrite 0
+ Message type F-Device cross            received 0 time(s)  isUsed 0  qItemRead 0 qItemWrite 0
+ Message type Storage                   received 0 time(s)  isUsed 0  qItemRead 0 qItemWrite 0
+ Message type Shutdown                  received 0 time(s)  isUsed 0  qItemRead 0 qItemWrite 0
+ Message type F-Host Data               received 0 time(s)  isUsed 1  qItemRead 0 qItemWrite 0
+ Message type F-Host cross              received 0 time(s)  isUsed 0  qItemRead 0 qItemWrite 0
+ Message type CIP/Safety Adapter        received 0 time(s)  isUsed 1  qItemRead 0 qItemWrite 0
+ Message type CIP/Safety AdapterCross   received 0 time(s)  isUsed 0  qItemRead 0 qItemWrite 0
+ Message type Local I/O                 received 0 time(s)  isUsed 0  qItemRead 0 qItemWrite 0
+ Message type Cat-0 Stop                received 0 time(s)  isUsed 0  qItemRead 0 qItemWrite 0
+ Message type Non-Safe data             received 0 time(s)  isUsed 0  qItemRead 0 qItemWrite 0
+ Message type FSOE-Master data          received 0 time(s)  isUsed 1  qItemRead 0 qItemWrite 0
+ Message type FSOE-Master cross         received 0 time(s)  isUsed 0  qItemRead 0 qItemWrite 0
+ Message type Fail                      received 0 time(s)  isUsed 0  qItemRead 0 qItemWrite 0
+ Message type Virtual IO                received 0 time(s)  isUsed 1  qItemRead 0 qItemWrite 0

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProductSettings version="2.0">
+  <Products>
+    <Product name="RobotOS" version="10.0.1+456" id="abb.robotics.robotos" distName="RobotWare" distVersion="7.12.0">
+      <Features>
+        <Feature id="abb.robotics.robotos" displayName="Robot Controller Operating System" robot="1" />
+      </Features>
+    </Product>
+    <Product name="RobotControl" version="7.12.0+1369" id="abb.robotics.robotcontrol" distName="RobotWare" distVersion="7.12.0">
+      <Features>
+        <Feature id="abb.robotics.robotcontrol.base" displayName="RobotControl Base" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.languages.english" displayName="English" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.options.flexpendant.limited" displayName="3120-1 FlexPendant Limited App Package" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.options.flexpendant.essential" displayName="3120-2 FlexPendant Essential App Package" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.options.flexpendant.program" displayName="3151-1 FlexPendant Program Package" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.controllerhw.safemove.essential" displayName="SafeMove Essential" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.controllerhw.io.integrated" displayName="Integrated IO" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.controllerhw.axiscomputer.none" displayName="System without axis computer" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.controllerhw.m28.02" displayName="Main computer M28.02" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.options.motorcommutation" displayName="Motor Commutation" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.options.sis" displayName="Service Info System" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.controllerhw.variant.e10" displayName="E10" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.controllerhw.drivesystem.b2" displayName="B2" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.options.calaxis" displayName="Axis Calibration" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.controllerhw.varianttype.e10.notype" displayName="E10 orig/notype" robot="1" />
+      </Features>
+    </Product>
+    <Product name="FlexPendantSoftwareUpdate" version="1.13.0+1879" id="abb.robotics.flexpendantapps" distName="RobotWare" distVersion="7.12.0">
+      <Features />
+    </Product>
+    <Product name="Robots" version="1.12.0+146" id="abb.robotics.robots" distName="RobotWare" distVersion="7.12.0">
+      <Features>
+        <Feature id="abb.robotics.robots.base" displayName="Robots Base" robot="1" />
+        <Feature id="abb.robotics.robots.robots.irb1300.7-1_4" displayName="IRB 1300-7/1.4" robot="1" />
+      </Features>
+    </Product>
+  </Products>
+</ProductSettings>

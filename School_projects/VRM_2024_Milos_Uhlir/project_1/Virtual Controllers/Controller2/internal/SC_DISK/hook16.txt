@@ -1,0 +1,111 @@
+------------------------
+qref = 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+------------------------
+qmea = 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+------------------------
+motor spdref = 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+------------------------
+motor spdmea = 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+------------------------
+arm qref = 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+------------------------
+arm qmea = 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+------------------------
+arm spdref = 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+------------------------
+arm spdmea = 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+------------------------
+tcp x = 0.000 
+tcp y = 0.000 
+tcp z = 0.000 
+tool orient = (0.000000, 1.000000, 0.000000, 0.000000) 
+------------------------
+tcpmeas x = 0.000 
+tcpmeas y = 0.000 
+tcpmeas z = 0.000 
+toolmeas orient = (0.000000, 1.000000, 0.000000, 0.000000) 
+------------------------
+tool point 0 = (0.000, 0.000, 0.000) 
+tool point 1 = (0.000, 0.000, 0.000) 
+tool point 2 = (0.000, 0.000, 0.000) 
+tool point 3 = (0.000, 0.000, 0.000) 
+tool point 4 = (0.000, 0.000, 0.000) 
+tool point 5 = (0.000, 0.000, 0.000) 
+tool point 6 = (0.000, 0.000, 0.000) 
+tool point 7 = (0.000, 0.000, 0.000) 
+------------------------
+arm trq = 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+------------------------
+grav trq = 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+------------------------
+safe state          = 0 
+initialization mode = 1 
+empty config        = 0 
+sync setup done     = 0 
+stop0 state         = 0 
+stop1 state         = 0 
+is unsync           = 0 
+manual mode         = 0 
+auto mode           = 0 
+run chain           = 0 
+use meas            = 0 
+shutdown mode       = 0 
+service mode        = 0 
+commissioning mode  = 0 
+drv enable allowed  = 0 
+safety enable       = 0 
+man mode only       = 0 
+enable switch       = 0 
+device enable1      = 0 
+fdb disconnected    = 0 
+fdb type            = AXC 
+exec counter        = 0 
+------------------------
+AxisrefUpdate result      = 0 
+AxismeasUpdate result     = 0 
+AxismeasUpdateFSoE result = 0 
+AxisSpeedSupv result      = 0 
+KinUpdate result          = 0 
+DynUpdate result          = 0 
+SyncUpdate result         = 0 
+ToolUpdate result         = 0 
+PayloadUpdate result      = 0 
+OutputAction result       = 0 
+------------------------
+SBR result = 0 
+ACK result = 0 
+OVR result = 0 
+------------------------
+CES result  = 0 
+CBC result  = 0 
+OSR result = 0 0 0 0 0 0 0 0 
+------------------------
+InsideZone result = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+------------------------
+InsideRange result = 0 0 0 0 0 0 0 0 
+------------------------
+STZ result = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+STZ OVR = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+------------------------
+SAR result = 0 0 0 0 0 0 0 0 
+SAR OVR = 0 0 0 0 0 0 0 0 
+------------------------
+TOM result = 0 0 0 0 0 0 0 0 
+TOM OVR = 0 0 0 0 0 0 0 0 
+------------------------
+Tool Force result = 0 0 0 0 0 0 0 0 
+Tool Force OVR = 0 0 0 0 0 0 0 0 
+------------------------
+STS result = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+------------------------
+SAS result = 0 0 0 0 0 0 0 0 
+------------------------
+SST result = 0 0 0 0 0 0 0 0 
+------------------------
+Reduced Tool Speed result = 0 
+Reduced Axis Speed result = 0 
+Unsync Ref Speed result   = 0 
+Unsync Meas Speed result  = 0 
+------------------------
+EmStop result = 0 0 0 0 0 0 0 0 0 0 0 
+------------------------

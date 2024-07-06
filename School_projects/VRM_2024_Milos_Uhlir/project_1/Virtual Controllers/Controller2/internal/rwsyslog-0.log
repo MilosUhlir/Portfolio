@@ -1,0 +1,132 @@
+<9>Apr  8 20:25:32 Controller2 ABB-UAL:01:Security log file deleted by user|-|syslog.log not found|3420|00001|-|robot|syslog	1
+<13>Apr  8 20:25:34 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=65537|1110|00002|-|robot|NativeUser	2
+<13>Apr  8 20:25:34 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=131074|1110|00003|-|robot|NativeUser	3
+<13>Apr  8 20:25:34 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=196611|1110|00004|-|robot|NativeUser	4
+<13>Apr  8 20:25:35 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=262148|1110|00005|-|robot|NativeUser	5
+<13>Apr  8 20:25:35 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=327685|1110|00006|-|robot|NativeUser	6
+<13>Apr  8 20:25:35 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=393222|1110|00007|-|robot|NativeUser	7
+<13>Apr  8 20:25:35 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00008|-|robot|NativeUser	8
+<13>Apr  8 20:25:43 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00009|-|robot|Admin	9
+<13>Apr  8 20:25:43 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=589833|1110|00010|-|robot|Admin	10
+<13>Apr  8 21:09:41 Controller2 ABB-UAL:01:Control system restarted|-|restart warmstart|5150|00011|-|robot|524296	11
+<13>Apr  8 21:09:44 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=65537|1110|00012|-|robot|NativeUser	12
+<13>Apr  8 21:09:44 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=131074|1110|00013|-|robot|NativeUser	13
+<13>Apr  8 21:09:44 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=196611|1110|00014|-|robot|NativeUser	14
+<13>Apr  8 21:09:44 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=262148|1110|00015|-|robot|NativeUser	15
+<13>Apr  8 21:09:44 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=327685|1110|00016|-|robot|NativeUser	16
+<13>Apr  8 21:09:44 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=393222|1110|00017|-|robot|NativeUser	17
+<13>Apr  8 21:09:49 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00018|-|robot|Admin	18
+<13>Apr  8 21:09:49 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00019|-|robot|Admin	19
+<13>Apr  8 21:10:37 Controller2 ABB-UAL:01:Control system restarted|-|restart warmstart|5150|00020|-|robot|458759	20
+<13>Apr  8 21:10:41 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=65537|1110|00021|-|robot|NativeUser	21
+<13>Apr  8 21:10:41 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=131074|1110|00022|-|robot|NativeUser	22
+<13>Apr  8 21:10:41 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=196611|1110|00023|-|robot|NativeUser	23
+<13>Apr  8 21:10:42 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=262148|1110|00024|-|robot|NativeUser	24
+<13>Apr  8 21:10:42 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=327685|1110|00025|-|robot|NativeUser	25
+<13>Apr  8 21:10:42 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=393222|1110|00026|-|robot|NativeUser	26
+<13>Apr  8 21:10:46 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00027|-|robot|Admin	27
+<13>Apr  8 21:10:46 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00028|-|robot|Admin	28
+<13>Apr  8 21:11:21 Controller2 ABB-UAL:01:Control system restarted|-|restart warmstart|5150|00029|-|robot|458759	29
+<13>Apr  8 21:11:24 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=65537|1110|00030|-|robot|NativeUser	30
+<13>Apr  8 21:11:24 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=131074|1110|00031|-|robot|NativeUser	31
+<13>Apr  8 21:11:24 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=196611|1110|00032|-|robot|NativeUser	32
+<13>Apr  8 21:11:25 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=262148|1110|00033|-|robot|NativeUser	33
+<13>Apr  8 21:11:25 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=327685|1110|00034|-|robot|NativeUser	34
+<13>Apr  8 21:11:25 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=393222|1110|00035|-|robot|NativeUser	35
+<13>Apr  8 21:11:29 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00036|-|robot|Admin	36
+<13>Apr  8 21:11:29 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00037|-|robot|Admin	37
+<13>Apr  8 21:12:17 Controller2 ABB-UAL:01:Control system restarted|-|restart warmstart|5150|00038|-|robot|458759	38
+<13>Apr  8 21:12:21 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=65537|1110|00039|-|robot|NativeUser	39
+<13>Apr  8 21:12:21 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=131074|1110|00040|-|robot|NativeUser	40
+<13>Apr  8 21:12:21 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=196611|1110|00041|-|robot|NativeUser	41
+<13>Apr  8 21:12:21 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=262148|1110|00042|-|robot|NativeUser	42
+<13>Apr  8 21:12:21 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=327685|1110|00043|-|robot|NativeUser	43
+<13>Apr  8 21:12:21 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=393222|1110|00044|-|robot|NativeUser	44
+<13>Apr  8 21:12:26 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00045|-|robot|Admin	45
+<13>Apr  8 21:12:26 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00046|-|robot|Admin	46
+<13>Apr  8 21:21:33 Controller2 ABB-UAL:01:Control system restarted|-|restart warmstart|5150|00047|-|robot|458759	47
+<13>Apr  8 21:21:36 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=65537|1110|00048|-|robot|NativeUser	48
+<13>Apr  8 21:21:36 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=131074|1110|00049|-|robot|NativeUser	49
+<13>Apr  8 21:21:36 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=196611|1110|00050|-|robot|NativeUser	50
+<13>Apr  8 21:21:36 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=262148|1110|00051|-|robot|NativeUser	51
+<13>Apr  8 21:21:36 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=327685|1110|00052|-|robot|NativeUser	52
+<13>Apr  8 21:21:36 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=393222|1110|00053|-|robot|NativeUser	53
+<13>Apr  8 21:21:41 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00054|-|robot|Admin	54
+<13>Apr  8 21:21:41 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00055|-|robot|Admin	55
+<13>Apr  8 22:17:26 Controller2 ABB-UAL:01:Configuration upload|-|Start restore|1331|00056|-|robot|458759	56
+<13>Apr  8 22:17:29 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=65537|1110|00057|-|robot|NativeUser	57
+<13>Apr  8 22:17:29 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=131074|1110|00058|-|robot|NativeUser	58
+<13>Apr  8 22:17:29 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=196611|1110|00059|-|robot|NativeUser	59
+<13>Apr  8 22:17:30 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=262148|1110|00060|-|robot|NativeUser	60
+<13>Apr  8 22:17:30 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=327685|1110|00061|-|robot|NativeUser	61
+<13>Apr  8 22:17:30 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=393222|1110|00062|-|robot|NativeUser	62
+<13>Apr  8 22:17:34 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00063|-|robot|Admin	63
+<13>Apr  8 22:17:34 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00064|-|robot|Admin	64
+<13>Apr  8 22:18:01 Controller2 ABB-UAL:01:Configuration upload|-|Start restore|1331|00065|-|robot|458759	65
+<13>Apr  8 22:18:04 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=65537|1110|00066|-|robot|NativeUser	66
+<13>Apr  8 22:18:04 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=131074|1110|00067|-|robot|NativeUser	67
+<13>Apr  8 22:18:04 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=196611|1110|00068|-|robot|NativeUser	68
+<13>Apr  8 22:18:05 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=262148|1110|00069|-|robot|NativeUser	69
+<13>Apr  8 22:18:05 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=327685|1110|00070|-|robot|NativeUser	70
+<13>Apr  8 22:18:05 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=393222|1110|00071|-|robot|NativeUser	71
+<13>Apr  8 22:18:05 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00072|-|robot|NativeUser	72
+<13>Apr  8 22:18:09 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00073|-|robot|Admin	73
+<13>Apr  8 22:18:09 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=589833|1110|00074|-|robot|Admin	74
+<13>Apr  8 22:19:01 Controller2 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=589833|1210|00075|-|robot|	75
+<13>Apr  8 22:19:01 Controller2 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00076|-|robot|	76
+<13>Apr  8 22:19:01 Controller2 ABB-UAL:01:Log-out (user logged out)|-|Socket=2764|1210|00077|-|robot|	77
+<13>Apr  8 22:19:43 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=65537|1110|00078|-|robot|NativeUser	78
+<13>Apr  8 22:19:43 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=131074|1110|00079|-|robot|NativeUser	79
+<13>Apr  8 22:19:43 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=196611|1110|00080|-|robot|NativeUser	80
+<13>Apr  8 22:19:43 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=262148|1110|00081|-|robot|NativeUser	81
+<13>Apr  8 22:19:43 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=327685|1110|00082|-|robot|NativeUser	82
+<13>Apr  8 22:19:43 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=393222|1110|00083|-|robot|NativeUser	83
+<13>Apr  8 22:19:46 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00084|-|robot|Admin	84
+<13>Apr  8 22:19:46 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00085|-|robot|Admin	85
+<13>Apr  8 22:40:38 Controller2 ABB-UAL:01:Control system restarted|-|restart warmstart|5150|00086|-|robot|458759	86
+<13>Apr  8 22:40:41 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=65537|1110|00087|-|robot|NativeUser	87
+<13>Apr  8 22:40:41 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=131074|1110|00088|-|robot|NativeUser	88
+<13>Apr  8 22:40:41 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=196611|1110|00089|-|robot|NativeUser	89
+<13>Apr  8 22:40:41 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=262148|1110|00090|-|robot|NativeUser	90
+<13>Apr  8 22:40:41 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=327685|1110|00091|-|robot|NativeUser	91
+<13>Apr  8 22:40:41 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=393222|1110|00092|-|robot|NativeUser	92
+<13>Apr  8 22:40:44 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00093|-|robot|Admin	93
+<13>Apr  8 22:40:44 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00094|-|robot|Admin	94
+<13>Apr  9 10:15:32 Controller2 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00095|-|robot|	95
+<13>Apr  9 10:15:32 Controller2 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00096|-|robot|	96
+<13>Apr  9 10:15:32 Controller2 ABB-UAL:01:Log-out (user logged out)|-|Socket=756|1210|00097|-|robot|	97
+<13>Apr  9 10:16:21 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=589831|1110|00098|-|robot|Admin	98
+<13>Apr  9 10:16:21 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=655368|1110|00099|-|robot|Admin	99
+<13>Apr  9 10:22:34 Controller2 ABB-UAL:01:Control system restarted|-|restart warmstart|5150|00100|-|robot|589831	100
+<13>Apr  9 10:22:41 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=65537|1110|00101|-|robot|NativeUser	101
+<13>Apr  9 10:22:42 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=131074|1110|00102|-|robot|NativeUser	102
+<13>Apr  9 10:22:44 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=196611|1110|00103|-|robot|NativeUser	103
+<13>Apr  9 10:22:44 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=262148|1110|00104|-|robot|NativeUser	104
+<13>Apr  9 10:22:44 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=327685|1110|00105|-|robot|NativeUser	105
+<13>Apr  9 10:22:44 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=393222|1110|00106|-|robot|NativeUser	106
+<13>Apr  9 10:22:49 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00107|-|robot|Admin	107
+<13>Apr  9 10:22:50 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00108|-|robot|Admin	108
+<13>Apr  9 10:26:04 Controller2 ABB-UAL:01:Control system restarted|-|restart warmstart|5150|00109|-|robot|458759	109
+<13>Apr  9 10:26:08 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=65537|1110|00110|-|robot|NativeUser	110
+<13>Apr  9 10:26:09 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=131074|1110|00111|-|robot|NativeUser	111
+<13>Apr  9 10:26:09 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=196611|1110|00112|-|robot|NativeUser	112
+<13>Apr  9 10:26:09 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=262148|1110|00113|-|robot|NativeUser	113
+<13>Apr  9 10:26:09 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=327685|1110|00114|-|robot|NativeUser	114
+<13>Apr  9 10:26:09 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=393222|1110|00115|-|robot|NativeUser	115
+<13>Apr  9 10:26:13 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00116|-|robot|Admin	116
+<13>Apr  9 10:26:13 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00117|-|robot|Admin	117
+<13>Apr  9 11:25:03 Controller2 ABB-UAL:01:Control system restarted|-|restart warmstart|5150|00118|-|robot|458759	118
+<13>Apr  9 11:25:07 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=65537|1110|00119|-|robot|NativeUser	119
+<13>Apr  9 11:25:07 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=131074|1110|00120|-|robot|NativeUser	120
+<13>Apr  9 11:25:07 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=196611|1110|00121|-|robot|NativeUser	121
+<13>Apr  9 11:25:07 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=262148|1110|00122|-|robot|NativeUser	122
+<13>Apr  9 11:25:07 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=327685|1110|00123|-|robot|NativeUser	123
+<13>Apr  9 11:25:07 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=393222|1110|00124|-|robot|NativeUser	124
+<13>Apr  9 11:25:11 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00125|-|robot|Admin	125
+<13>Apr  9 11:25:11 Controller2 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00126|-|robot|Admin	126
+<13>Apr  9 11:55:01 Controller2 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00127|-|robot|	127
+<13>Apr  9 11:55:01 Controller2 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00128|-|robot|	128
+<13>Apr  9 11:55:01 Controller2 ABB-UAL:01:Log-out (user logged out)|-|Socket=692|1210|00129|-|robot|	129
+-----BEGIN DIGEST-----
+DBhyc/3SwGvOMK9AjgCY4xCoxmyJFuP6IDDfM0Krn9SRhI46d9gct9EZZCAWeHsOh2W0Yw==
+-----END DIGEST-----

@@ -1,0 +1,15 @@
+Initialized  : YES
+Config state : NOT configured
+
+Config CRC   : 0
+SIOS mutex   : 1
+Lock count   : 0
+Import count : 0
+
+List of registered SNCs:
+Feedback
+SafeLocalIO
+PNFDevice
+PNFHost
+CIPSafety
+No safety networks exist

@@ -1,0 +1,75 @@
+C:\a\4\s\DpUpdates\DpUpdates.cpp, 53	2024-04-07 12:37:01: Starting new log ***********************. 
+C:\a\4\s\DpUpdates\DpUpdates.cpp, 54	[INFO] Finalize the installation. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1038	Recreate 'C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1/internal/temp/INSTALL'
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1052	[INFO] InstallSystem starts. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1056	[INFO] Create system structures. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1362	[INFO] Building system structure in 'C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1/internal'.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1378	[INFO] Building folders under 'C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1'.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1403	GetProdsAndFeaturesFromCtrlrsfFile(), file path = 'C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1/internal/controller.rsf'. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1449	GetProdsAndFeaturesFromCtrlrsfFile(), got 4 products. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1514	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'RobotOS'. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1514	GetProdsAndFeaturesFromCtrlrsfFile(), got 15 features for product 'RobotControl'. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1458	[INFO] No feature found for product 'FlexPendantSoftwareUpdate', in file 'C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1/internal/controller.rsf'. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1514	GetProdsAndFeaturesFromCtrlrsfFile(), got 0 features for product 'FlexPendantSoftwareUpdate'. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1514	GetProdsAndFeaturesFromCtrlrsfFile(), got 2 features for product 'Robots'. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1083	[INFO] Get information of product 'RobotOS'.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1092	[INFO] Get all features and feature data of product 'RobotOS'.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 354	[INFO] Number of features for product 'RobotOS' is 1.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 357	[INFO] Get information for each feature.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 403	[INFO] No KeyValue found for feature 'abb.robotics.robotos' in file C:/Users/milda/AppData/Local/ABB/RobotWare/RobotOS_10.0.1/abb.robotics.robotos.rmf.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1083	[INFO] Get information of product 'RobotControl'.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1092	[INFO] Get all features and feature data of product 'RobotControl'.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 354	[INFO] Number of features for product 'RobotControl' is 15.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 357	[INFO] Get information for each feature.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 403	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.controllerhw.safemove.essential' in file C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/abb.robotics.robotcontrol.rmf.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 403	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.controllerhw.io.integrated' in file C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/abb.robotics.robotcontrol.rmf.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 403	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.controllerhw.axiscomputer.none' in file C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/abb.robotics.robotcontrol.rmf.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 403	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.controllerhw.m28.02' in file C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/abb.robotics.robotcontrol.rmf.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 403	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.controllerhw.variant.e10' in file C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/abb.robotics.robotcontrol.rmf.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 403	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.controllerhw.varianttype.e10.notype' in file C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0/abb.robotics.robotcontrol.rmf.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1083	[INFO] Get information of product 'FlexPendantSoftwareUpdate'.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1092	[INFO] Get all features and feature data of product 'FlexPendantSoftwareUpdate'.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 354	[INFO] Number of features for product 'FlexPendantSoftwareUpdate' is 1.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 357	[INFO] Get information for each feature.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 403	[INFO] No KeyValue found for feature 'abb.robotics.flexpendantapps.apps' in file C:/Users/milda/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.13.0/abb.robotics.flexpendantapps.rmf.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1083	[INFO] Get information of product 'Robots'.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1092	[INFO] Get all features and feature data of product 'Robots'.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 354	[INFO] Number of features for product 'Robots' is 2.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 357	[INFO] Get information for each feature.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1715	[INFO] Product path 'C:/Users/milda/AppData/Local/ABB/RobotWare/RobotControl_7.12.0'.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1740	[INFO] Product path 'C:/Users/milda/AppData/Local/ABB/RobotWare/RobotOS_10.0.1'.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1740	[INFO] Product path 'C:/Users/milda/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.13.0'.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1740	[INFO] Product path 'C:/Users/milda/AppData/Local/ABB/RobotWare/Robots_1.12.0'.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1763	[WARNING] Failed to get serial number or empty serial number. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1821	[INFO] Generating key.id, writing header.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 2046	[INFO] Generate file 'C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1/internal/system.xml'.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 2075	[WARNING] Unable to get serial number or empty serial number. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1156	All actions done, status = 0. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 2325	[INFO] Installation is complete. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 878	[INFO] Update prodinfo.xml. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 907	[INFO] Need to update prodinfo.xml. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 948	[INFO] File C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been updated. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 979	[INFO] Failed to get RWI version. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1004	[INFO] File C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1403	GetProdsAndFeaturesFromCtrlrsfFile(), file path = 'C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1/internal/controller.rsf'. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1449	GetProdsAndFeaturesFromCtrlrsfFile(), got 4 products. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1514	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'RobotOS'. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1514	GetProdsAndFeaturesFromCtrlrsfFile(), got 15 features for product 'RobotControl'. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1458	[INFO] No feature found for product 'FlexPendantSoftwareUpdate', in file 'C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1/internal/controller.rsf'. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1514	GetProdsAndFeaturesFromCtrlrsfFile(), got 0 features for product 'FlexPendantSoftwareUpdate'. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1514	GetProdsAndFeaturesFromCtrlrsfFile(), got 2 features for product 'Robots'. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1923	[INFO] ResetAddInData status =0.
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 878	[INFO] Update prodinfo.xml. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1004	[INFO] File C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 878	[INFO] Update prodinfo.xml. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1004	[INFO] File C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 878	[INFO] Update prodinfo.xml. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1004	[INFO] File C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 878	[INFO] Update prodinfo.xml. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1004	[INFO] File C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 878	[INFO] Update prodinfo.xml. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1004	[INFO] File C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 878	[INFO] Update prodinfo.xml. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1004	[INFO] File C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 878	[INFO] Update prodinfo.xml. 
+C:\a\4\s\DpUpdates\DpUpdates_i.cpp, 1004	[INFO] File C:/Users/milda/OneDrive/Desktop/GitHub/VRM_2024_Milos_Uhlir/project_1/Virtual Controllers/Controller1/internal/prodinfo.xml has been created, status = 0. 

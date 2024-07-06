@@ -1,0 +1,13 @@
+ ====== SAFETY log from CPU1 [2024-04-08 21:11:25] [0 us] =======
+
+ [ 0] Diff:3301521166 str: Pers.saf. data wrong key 0 for                             
+ [ 1] Diff:    283762 str: Got command 3, parameters 0,                              
+ [ 2] Diff:      9714 str: Got command 3, parameters 1,                              
+ [ 3] Diff:      8378 str: Got command 3, parameters 2,                              
+ [ 4] Diff:      9911 str: Got command 3, parameters 3,                              
+ [ 5] Diff:      7156 str: Got command 3, parameters 4,                              
+ [ 6] Diff:      8898 str: Got command 3, parameters 5,                              
+ [ 7] Diff:      7364 str: Got command 3, parameters 6,                              
+ [ 8] Diff:      8507 str: Got command 3, parameters 7,                              
+ [ 9] Diff:      9016 str: Got command 3, parameters 8,                              
+ [10] Diff:      9392 str: Got command 3, parameters 9,                              

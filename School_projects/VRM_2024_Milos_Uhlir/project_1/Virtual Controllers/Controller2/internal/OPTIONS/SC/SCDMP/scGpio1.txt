@@ -1,0 +1,29 @@
+ System input 
+ =============
+SC_GPIO_IN1 State: Low 
+SC_GPIO_IN2 State: Low 
+SC_GPIO_IN3 State: High 
+SC_GPIO_IN4 State: High 
+SC_GPIO_IN5 State: Low 
+SC_GPIO_IN6 State: High 
+
+ System output
+ =============
+SC_GPIO_OUT1 State: Low 
+SC_GPIO_OUT2 State: Low 
+
+ Test output
+ =============
+SC_GPIO_TEST_OUT1 State: Low 
+SC_GPIO_TEST_OUT2 State: Low 
+SC_GPIO_TEST_OUT3 State: Low 
+SC_GPIO_TEST_OUT4 State: Low 
+SC_GPIO_TEST_OUT5 State: Low 
+ Test input
+ =============
+SC_GPIO_TEST_IN1 State: Low 
+SC_GPIO_TEST_IN2 State: Low 
+
+GPIO_24VIN_CTRL_CH1 State: Low 
+hScGpioMailSlot : 000000EC
+hFpgar11MailSlot: 000000F8

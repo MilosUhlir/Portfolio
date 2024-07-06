@@ -1,0 +1,127 @@
+ ====== SIOS log from CPU1 [2024-04-08 21:11:25] [0 us] =======
+
+ [ 0] Diff: 550093973 str: Scoord: Clear lock info                                     
+ [ 1] Diff:        24 str: SIOS: Initialized                                           
+ [ 2] Diff:   1181807 str: Scoord: Received cmd 109                                     
+ [ 3] Diff:        23 str: Scoord cmd 109 status 0                                     
+ [ 4] Diff:       114 str: Scoord: Received cmd 128                                     
+ [ 5] Diff:         2 str: Scoord cmd 128 status 0                                     
+ [ 6] Diff:     27886 str: Scoord: Received cmd 100                                     
+ [ 7] Diff:     14046 str: SIOS: Configure                                             
+ [ 8] Diff:       162 str: SIOS: Configure result: 0                                  
+ [ 9] Diff:       374 str: SIOS: Configure SafeLocalIO                                 
+ [10] Diff:        25 str: SIOS: Configure result: 0                                  
+ [11] Diff:         9 str: CL: INFO - Configure CL                                     
+ [12] Diff:         1 str: CL: INFO - Cfg version 1.2                                
+ [13] Diff:       184 str: CL: INFO - Configure result: 0                             
+ [14] Diff:      1115 str: Scoord cmd 100 status 0                                     
+ [15] Diff:     52224 str: Scoord: Received cmd 107                                     
+ [16] Diff:         8 str: Scoord cmd 107 status 0                                     
+ [17] Diff:       173 str: Scoord: Received cmd 102                                     
+ [18] Diff:         2 str: Scoord cmd 102 status 0                                     
+ [19] Diff:    827738 str: Scoord: Received cmd 126                                     
+ [20] Diff:         1 str: Scoord cmd 126 status 0                                     
+ [21] Diff:       256 str: Scoord: Received cmd 118                                     
+ [22] Diff:         1 str: Scoord cmd 118 status 0                                     
+ [23] Diff:    424470 str: Scoord: Received cmd 118                                     
+ [24] Diff:         1 str: Scoord cmd 118 status 0                                     
+ [25] Diff:   7691390 str: Scoord: Received cmd 108                                     
+ [26] Diff:         3 str: Scoord cmd 108 status 0                                     
+ [27] Diff:     31723 str: Scoord: Received cmd 108                                     
+ [28] Diff:         1 str: Scoord cmd 108 status 0                                     
+ [29] Diff:    757789 str: Scoord: Received cmd 120                                     
+ [30] Diff:         0 str: Scoord cmd 120 status 0                                     
+ [31] Diff:     14780 str: Scoord: Received cmd 122                                     
+ [32] Diff:         1 str: Scoord cmd 122 status 0                                     
+ [33] Diff:    674279 str: Scoord: Received cmd 120                                     
+ [34] Diff:         1 str: Scoord cmd 120 status 0                                     
+ [35] Diff:2636727631 str:  Entering scoordShutdownEarly                               
+ [36] Diff:         5 str:  Calling scoordSafetModeShutdow                             
+ [37] Diff:         2 str:  Leaving scoordShutdownEarly                                
+ [38] Diff:   1529306 str: Scoord: Clear lock info                                     
+ [39] Diff:         8 str: SIOS: Initialized                                           
+ [40] Diff:   1093110 str: Scoord: Received cmd 109                                     
+ [41] Diff:         2 str: Scoord cmd 109 status 0                                     
+ [42] Diff:        67 str: Scoord: Received cmd 128                                     
+ [43] Diff:         1 str: Scoord cmd 128 status 0                                     
+ [44] Diff:     20719 str: Scoord: Received cmd 100                                     
+ [45] Diff:      9953 str: SIOS: Configure                                             
+ [46] Diff:       125 str: SIOS: Configure result: 0                                  
+ [47] Diff:       309 str: SIOS: Configure SafeLocalIO                                 
+ [48] Diff:        19 str: SIOS: Configure result: 0                                  
+ [49] Diff:         8 str: CL: INFO - Configure CL                                     
+ [50] Diff:         2 str: CL: INFO - Cfg version 1.2                                
+ [51] Diff:       161 str: CL: INFO - Configure result: 0                             
+ [52] Diff:      1365 str: Scoord cmd 100 status 0                                     
+ [53] Diff:     58124 str: Scoord: Received cmd 107                                     
+ [54] Diff:         6 str: Scoord cmd 107 status 0                                     
+ [55] Diff:        40 str: Scoord: Received cmd 102                                     
+ [56] Diff:         2 str: Scoord cmd 102 status 0                                     
+ [57] Diff:    297566 str: Scoord: Received cmd 126                                     
+ [58] Diff:         0 str: Scoord cmd 126 status 0                                     
+ [59] Diff:       233 str: Scoord: Received cmd 118                                     
+ [60] Diff:         0 str: Scoord cmd 118 status 0                                     
+ [61] Diff:    326206 str: Scoord: Received cmd 118                                     
+ [62] Diff:         1 str: Scoord cmd 118 status 0                                     
+ [63] Diff:   5791403 str: Scoord: Received cmd 120                                     
+ [64] Diff:         1 str: Scoord cmd 120 status 0                                     
+ [65] Diff:      1113 str: Scoord: Received cmd 122                                     
+ [66] Diff:         1 str: Scoord cmd 122 status 0                                     
+ [67] Diff:    617239 str: Scoord: Received cmd 120                                     
+ [68] Diff:         0 str: Scoord cmd 120 status 0                                     
+ [69] Diff:  46125058 str:  Entering scoordShutdownEarly                               
+ [70] Diff:         1 str:  Calling scoordSafetModeShutdow                             
+ [71] Diff:         0 str:  Leaving scoordShutdownEarly                                
+ [72] Diff:   2863169 str: Scoord: Clear lock info                                     
+ [73] Diff:         8 str: SIOS: Initialized                                           
+ [74] Diff:   1143065 str: Scoord: Received cmd 109                                     
+ [75] Diff:         1 str: Scoord cmd 109 status 0                                     
+ [76] Diff:        74 str: Scoord: Received cmd 128                                     
+ [77] Diff:         1 str: Scoord cmd 128 status 0                                     
+ [78] Diff:     18386 str: Scoord: Received cmd 100                                     
+ [79] Diff:    105286 str: SIOS: Configure                                             
+ [80] Diff:       131 str: SIOS: Configure result: 0                                  
+ [81] Diff:       384 str: SIOS: Configure SafeLocalIO                                 
+ [82] Diff:        28 str: SIOS: Configure result: 0                                  
+ [83] Diff:         7 str: CL: INFO - Configure CL                                     
+ [84] Diff:         2 str: CL: INFO - Cfg version 1.2                                
+ [85] Diff:       169 str: CL: INFO - Configure result: 0                             
+ [86] Diff:      1777 str: Scoord cmd 100 status 0                                     
+ [87] Diff:     55875 str: Scoord: Received cmd 107                                     
+ [88] Diff:         9 str: Scoord cmd 107 status 0                                     
+ [89] Diff:        61 str: Scoord: Received cmd 102                                     
+ [90] Diff:         2 str: Scoord cmd 102 status 0                                     
+ [91] Diff:    310440 str: Scoord: Received cmd 126                                     
+ [92] Diff:         1 str: Scoord cmd 126 status 0                                     
+ [93] Diff:       218 str: Scoord: Received cmd 118                                     
+ [94] Diff:         0 str: Scoord cmd 118 status 0                                     
+ [95] Diff:    392631 str: Scoord: Received cmd 118                                     
+ [96] Diff:         1 str: Scoord cmd 118 status 0                                     
+ [97] Diff:   5837398 str: Scoord: Received cmd 120                                     
+ [98] Diff:         2 str: Scoord cmd 120 status 0                                     
+ [99] Diff:       633 str: Scoord: Received cmd 122                                     
+ [100] Diff:         1 str: Scoord cmd 122 status 0                                     
+ [101] Diff:    702831 str: Scoord: Received cmd 120                                     
+ [102] Diff:         0 str: Scoord cmd 120 status 0                                     
+ [103] Diff:  32605662 str:  Entering scoordShutdownEarly                               
+ [104] Diff:         0 str:  Calling scoordSafetModeShutdow                             
+ [105] Diff:         1 str:  Leaving scoordShutdownEarly                                
+ [106] Diff:   1789606 str: Scoord: Clear lock info                                     
+ [107] Diff:        25 str: SIOS: Initialized                                           
+ [108] Diff:   1179450 str: Scoord: Received cmd 109                                     
+ [109] Diff:         1 str: Scoord cmd 109 status 0                                     
+ [110] Diff:        81 str: Scoord: Received cmd 128                                     
+ [111] Diff:         1 str: Scoord cmd 128 status 0                                     
+ [112] Diff:     14152 str: Scoord: Received cmd 100                                     
+ [113] Diff:    102445 str: SIOS: Configure                                             
+ [114] Diff:       136 str: SIOS: Configure result: 0                                  
+ [115] Diff:       665 str: SIOS: Configure SafeLocalIO                                 
+ [116] Diff:        30 str: SIOS: Configure result: 0                                  
+ [117] Diff:        24 str: CL: INFO - Configure CL                                     
+ [118] Diff:         2 str: CL: INFO - Cfg version 1.2                                
+ [119] Diff:       176 str: CL: INFO - Configure result: 0                             
+ [120] Diff:      1674 str: Scoord cmd 100 status 0                                     
+ [121] Diff:        49 str: Scoord: Received cmd 101                                     
+ [122] Diff:        10 str: SIOS: Reset complete                                        
+ [123] Diff:         1 str: CL: INFO - Reset complete                                   
+ [124] Diff:        11 str: Scoord cmd 101 status 0                                     

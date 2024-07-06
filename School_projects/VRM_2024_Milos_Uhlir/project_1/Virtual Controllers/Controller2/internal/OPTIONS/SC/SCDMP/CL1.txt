@@ -1,0 +1,48 @@
+Initialized   : YES
+Config state  : NOT configured
+
+Config CRC    : 0x00000000
+========= List of all operators =========
+Op Type     Actuators   Act type    Resultants  Res type    Exec        Init        Exit        print       
+AND1..7     act1..8     BOOL        res1        BOOL        0093EC20    00000000    00000000    00000000    
+OR1..7      act1..8     BOOL        res1        BOOL        0093ED10    00000000    00000000    00000000    
+XOR1..7     act1..8     BOOL        res1        BOOL        0093EE00    00000000    00000000    00000000    
+INV1        act1        BOOL        res1        BOOL        0093EEF0    00000000    00000000    00000000    
+COPY1..8    act1        BOOL        res1..8     BOOL        0093EF70    00000000    00000000    00000000    
+EDGE1       trigg       BOOL        res1        BOOL        0093F2F0    0093F390    0093F420    0093F490    
+            reset       BOOL                                
+COPYI       inp1        INT32       res1..8     INT32       0093EFE0    00000000    00000000    00000000    
+CMPI        act1        INT32       lt          BOOL        0093F4F0    00000000    00000000    00000000    
+            act2        INT32       le          BOOL        
+                                    eq          BOOL        
+                                    ge          BOOL        
+                                    gt          BOOL        
+                                    ne          BOOL        
+ADDI        inp1..2     INT32       res1        INT32       0093F080    00000000    00000000    00000000    
+SUBI        inp1..2     INT32       res1        INT32       0093F0E0    00000000    00000000    00000000    
+MULI        inp1..2     INT32       res1        INT32       0093F140    00000000    00000000    00000000    
+DIVI        act1        INT32       res1        INT32       0093F1A0    00000000    00000000    00000000    
+            act2        INT32       error       BOOL        
+REMI        act1        INT32       res1        INT32       0093F220    00000000    00000000    00000000    
+            act2        INT32       error       BOOL        
+ABSI        act1        INT32       res1        INT32       0093F2A0    00000000    00000000    00000000    
+COUNT       enable      BOOL        count       INT32       0093F5D0    0093F6C0    0093F740    0093F7B0    
+            clear       BOOL        rollover    BOOL        
+            limit       INT32                               
+            pulse       BOOL                                
+DELAY       enable      BOOL        count       INT32       0093F830    0093F8D0    0093F950    0093F9C0    
+            reset       BOOL        timeout     BOOL        
+            period      INT32                               
+DEC4L       enable      BOOL        res0..7     BOOL        0093FA20    00000000    00000000    00000000    
+            input       INT32                   BOOL        
+DEC4H       enable      BOOL        res8..15    BOOL        0093FBC0    00000000    00000000    00000000    
+            input       INT32                   BOOL        
+MUXI        input1      INT32       result      INT32       0093FD70    00000000    00000000    00000000    
+            input2      INT32                               
+            select      BOOL                                
+OPACK       OpAck       BOOL        result      BOOL        0093FDF0    00000000    00000000    00000000    
+========= List of all programs ==========
+PreLogic operations:
+PreLogic is empty
+PostLogic operations:
+PostLogic is empty
