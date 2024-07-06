@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://dvry0ph62u3a1"]
+
+[ext_resource type="Script" path="res://gui.gd" id="1_e7tfl"]
+
+[node name="GUI" type="CanvasLayer"]
+script = ExtResource("1_e7tfl")
+
+[node name="Button" type="Button" parent="."]
+offset_right = 116.0
+offset_bottom = 44.0
+text = "Test Path
+Outputs into cosole"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

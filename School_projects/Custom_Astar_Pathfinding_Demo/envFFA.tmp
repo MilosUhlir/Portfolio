@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://0a6idxkl5e61"]
+
+[ext_resource type="Script" path="res://environment.gd" id="1_8kgg6"]
+[ext_resource type="PackedScene" uid="uid://dabrlgvxgvgup" path="res://unit.tscn" id="1_e8whp"]
+[ext_resource type="PackedScene" uid="uid://dvry0ph62u3a1" path="res://gui.tscn" id="1_j3rtp"]
+
+[sub_resource type="TileSet" id="TileSet_56xgt"]
+tile_layout = 4
+tile_offset_axis = 1
+tile_size = Vector2i(64, 64)
+
+[node name="Environment" type="Node2D"]
+script = ExtResource("1_8kgg6")
+
+[node name="GUI" parent="." instance=ExtResource("1_j3rtp")]
+
+[node name="Unit" parent="." instance=ExtResource("1_e8whp")]
+position = Vector2(302, 280)
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_56xgt")
+format = 2
