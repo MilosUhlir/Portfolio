@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=3 uid="uid://bk0spmn1pkm4o"]
+
+[ext_resource type="PackedScene" uid="uid://gx3gd7jtlrie" path="res://Robot_model/vrm_robot_arm_v2.glb" id="1_71dp2"]
+
+[node name="vrm_robot_arm_v2" instance=ExtResource("1_71dp2")]
+
+[node name="Plane_003" parent="Armature/Skeleton3D" index="0"]
+transform = Transform3D(1, 1.16419e-09, 2.84217e-14, -6.98459e-10, 1, 7.10539e-15, 2.84217e-14, 2.13163e-14, 1, 1.11482e-08, 8.87561, 1.7053e-13)
+
+[node name="Circle_001" parent="Armature/Skeleton3D" index="1"]
+transform = Transform3D(1, 1.16419e-09, 2.84217e-14, -6.98459e-10, 1, 7.10539e-15, 2.84217e-14, 2.13163e-14, 1, 1.22954e-08, 9.86106, 1.91536e-13)
+
+[node name="Plane_002" parent="Armature/Skeleton3D" index="2"]
+transform = Transform3D(1, 4.65694e-10, -2.84217e-14, 3.31816e-14, 1, 0, 8.52651e-14, 2.84217e-14, 1, 1.21072e-08, 6.47743, 2.98023e-08)
+
+[node name="Plane_005" parent="Armature/Skeleton3D" index="3"]
+transform = Transform3D(1, 4.65694e-10, -2.84217e-14, 3.31816e-14, 1, 0, 8.52651e-14, 2.84217e-14, 1, 1.21072e-08, 6.47743, 2.98023e-08)
+
+[node name="Plane_001" parent="Armature/Skeleton3D" index="4"]
+transform = Transform3D(1, 2.62355e-14, -2.84217e-14, 2.62355e-14, 1, 1.42109e-14, 7.10543e-14, 0, 1, 1.02718e-08, 3.50667, 2.23518e-08)
+
+[node name="Plane_004" parent="Armature/Skeleton3D" index="5"]
+transform = Transform3D(1, 2.62355e-14, -2.84217e-14, 2.62355e-14, 1, 1.42109e-14, 7.10543e-14, 0, 1, 1.02718e-08, 3.50667, 2.23518e-08)
+
+[node name="Cube" parent="Armature/Skeleton3D" index="6"]
+transform = Transform3D(1, -1.31082e-15, 0, 1.35372e-15, 1, -8.88178e-16, 0, -8.88178e-16, 1, 1.21071e-08, 0.519971, 4.47035e-08)
+
+[node name="Cube_001" parent="Armature/Skeleton3D" index="7"]
+transform = Transform3D(1, -1.31082e-15, 0, 1.35372e-15, 1, -8.88178e-16, 0, -8.88178e-16, 1, 1.21071e-08, 0.519971, 4.47035e-08)
+
+[node name="SkeletonIK3D" type="SkeletonIK3D" parent="Armature/Skeleton3D" index="9"]
+process_priority = 1
+root_bone = &"Plane"
+tip_bone = &"Plane.004"
