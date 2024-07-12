@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://c431p48rwdth2"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="polygons" type="Node2D" parent="."]
+
+[node name="Polygon2D" type="Polygon2D" parent="polygons"]
+color = Color(1, 0, 0, 1)
+skeleton = NodePath("../../Skeleton2D")
+polygon = PackedVector2Array(0, 0, 50, -20, 250, 0, 50, 20)
+
+[node name="Polygon2D2" type="Polygon2D" parent="polygons"]
+position = Vector2(250, 0)
+color = Color(0, 1, 0, 1)
+skeleton = NodePath("../../Skeleton2D")
+polygon = PackedVector2Array(0, 0, 50, -20, 250, 0, 50, 20)
+
+[node name="Skeleton2D" type="Skeleton2D" parent="."]
+
+[node name="link_1" type="Bone2D" parent="Skeleton2D"]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="link_2" type="Bone2D" parent="Skeleton2D/link_1"]
+position = Vector2(250, 0)
+rest = Transform2D(1, 0, 0, 1, 250, 0)
+auto_calculate_length_and_angle = false
+length = 250.0
+bone_angle = 0.0
