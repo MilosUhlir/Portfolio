@@ -1,0 +1,12 @@
+# .htaccess
+# enable PHP error logging
+php_flag display_startup_errors on
+php_flag display_errors on
+
+# Enable rewrite engine for this folder
+RewriteEngine On
+RewriteBase /m221208/
+
+# Allow access to all files in this directory
+Order allow,deny
+allow from all
