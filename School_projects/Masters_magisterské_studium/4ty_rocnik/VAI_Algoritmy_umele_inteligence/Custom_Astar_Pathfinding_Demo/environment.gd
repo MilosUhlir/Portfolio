@@ -57,6 +57,12 @@ func _unhandled_input(event):
 				tilemap.set_cell(0, mouse, 0, Vector2i(1, 0))
 			elif cell_atlas_c[0] == Tile_state.Obstacle:
 				tilemap.set_cell(0, mouse, 0, Vector2i(0, 0))
+	
+	elif event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_MIDDLE:
+		if event.is_pressed():
+			var mouse = tilemap.local_to_map(get_local_mouse_position())
+			var data = tilemap.get_cell_atlas_coords(0, mouse)
+			print(data)
 
 
 func debug_print(_debug):
